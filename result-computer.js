@@ -50,7 +50,7 @@ const racePointFunctions = {
     "H40": racePointFunction([6,5,4,3,2,1]),
 
     "D45B": racePointFunction([2,2,2,1,1,1]),
-    "H4BB": racePointFunction([2,2,2,1,1,1]),
+    "H45B": racePointFunction([2,2,2,1,1,1]),
 
     "D50": racePointFunction([6,5,4,3,2,1]),
     "H50": racePointFunction([6,5,4,3,2,1]),
@@ -85,7 +85,7 @@ const computeMatchResult = function(matchClubs, oResults) {
                     let categoryRacePoints = matchClubs.reduce( (a, c) => {a[c] = 0; return a; }, {});
                     let mr = c.individualResults
                         .filter(r => matchClubs.includes(r.club) && r.status == "Ok")
-                        .map((r, i) => ({ __proto__: r, racePoints: categoryRacePoints[r.club] += rpFn(i, categoryRacePoints[r.club])}));
+                        .map((r, i) => {const p = rpFn(i, categoryRacePoints[r.club]); categoryRacePoints[r.club] += p; return { __proto__: r, racePoints: p  }});
                     Object.entries(categoryRacePoints).forEach(kv => matchRacePoints[kv[0]] += kv[1]);
                     return {__proto__: c, matchResults: mr, racePoints: categoryRacePoints};
                 })
@@ -107,5 +107,32 @@ const divisions = [
 ];
 
 
-const r = divisions.map(clubs => roundRobin(clubs).map(c => computeMatchResult(c, result)));
-console.log(r);
+
+const mSep = "&ndash;";
+
+function makeTable() {
+    
+    const r = divisions.map(clubs => roundRobin(clubs).map(c => computeMatchResult(c, result)));
+    console.log(r);
+    
+    const tbl = document.querySelector("#mytable>tbody");
+
+    for (var m of r[1]) {
+        const [c0, c1] = m.clubs;
+        tbl.insertAdjacentHTML("beforeend", `<tr class="matchHeader"><td>${c0}</td><td>${m.racePoints[c0]}</td><td>${mSep}</td><td>${m.racePoints[c1]}<td>${c1}</td></tr>`);
+        for (var c of m.categories) {
+            tbl.insertAdjacentHTML("beforeend", `<tr class="catHeader"><td>${c.name}</td><td>${c.racePoints[c0]}</td><td>${mSep}</td><td>${c.racePoints[c1]}<td>${c.name}</td></tr>`);
+            for (var p of c.matchResults) {
+                if (p.club == c0) {
+                    tbl.insertAdjacentHTML("beforeend", `<tr class="indivRes"><td>${p.name}</td><td>${p.racePoints}</td><td /><td /></td></tr>`);
+                }
+                else if (p.club == c1){
+                    tbl.insertAdjacentHTML("beforeend", `<tr class="indivRes"><td /><td /><td /><td>${p.racePoints}<td>${p.name}</td></tr>`);
+                }
+            }
+        }
+
+
+    }
+
+}
