@@ -1,4 +1,8 @@
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 table.divisionMatchTable {
     border-collapse: collapse;
@@ -13,6 +17,8 @@ table.divisionMatchTable > tbody > tr.matchHeader {
     background: lightseagreen;
     font-weight: 600;
     font-size: 120%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;;
 }
 
 
@@ -30,6 +36,8 @@ table.divisionMatchTable > tbody > tr.catHeader {
 }
 
 table.divisionMatchTable > tbody > tr.indivRes {
-    color: gray;
+    background: rgb(230, 247, 254);
+    color: rgba(0, 0, 0, .5);
+    font-size: 90%;
 }
 

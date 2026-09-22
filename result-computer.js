@@ -2,25 +2,22 @@
 
 const racePointFunction = function(rankPointsArray)
 {
-    return rank => (rank < rankPointsArray.length) ? rankPointsArray[rank] : 0;
+    let fn = rank => (rank < rankPointsArray.length) ? rankPointsArray[rank] : 0;
+    fn.count = rankPointsArray.length;
+    return fn;
 };
 
-
-const racePointCapFunction = function(pointCap)
-{
-    return (rank, curPoints) => (curPoints <= pointCap) ? 1 :0;
-};
 
 const racePointFunctions = {
 
-    "D10": racePointCapFunction(3), // capped at 3 per team
-    "H10": racePointCapFunction(3), // capped at 3 per team
+    "D10": racePointFunction([1,1,1,1,1,1]), //racePointCapFunction(3), // capped at 3 per team
+    "H10": racePointFunction([1,1,1,1,1,1]), // capped at 3 per team
 
     "D12": racePointFunction([4,3,2,1]),
     "H12": racePointFunction([4,3,2,1]),
 
-    "D12B": racePointCapFunction(3), // capped at 3 per team
-    "H12B": racePointCapFunction(3), // capped at 3 per team
+    "D12B": racePointFunction([1,1,1,1,1,1]), // capped at 3 per team
+    "H12B": racePointFunction([1,1,1,1,1,1]), // capped at 3 per team
 
     "D14": racePointFunction([4,3,2,1]),
     "H14": racePointFunction([4,3,2,1]),
@@ -82,11 +79,21 @@ const computeMatchResult = function(matchClubs, oResults) {
                 .map(k => findCategory(oResults.categories, k))
                 .map(c => {
                     let rpFn = racePointFunctions[c.name];
-                    let categoryRacePoints = matchClubs.reduce( (a, c) => {a[c] = 0; return a; }, {});
+                    let categoryRacePoints = matchClubs.reduce( (a, c) => {a[c] = { racePoints: 0, count: 0 } ; return a; }, {});
+                    let rank = 0;
                     let mr = c.individualResults
-                        .filter(r => matchClubs.includes(r.club) && r.status == "Ok")
-                        .map((r, i) => {const p = rpFn(i, categoryRacePoints[r.club]); categoryRacePoints[r.club] += p; return { __proto__: r, racePoints: p  }});
-                    Object.entries(categoryRacePoints).forEach(kv => matchRacePoints[kv[0]] += kv[1]);
+                        .filter(r => matchClubs.includes(r.club))
+                        .map((r, i) => {
+                            let rp = 0;
+                            if (r.status == "Ok" && categoryRacePoints[r.club].count < rpFn.count / 2 ) {
+                                rp = rpFn(rank);
+                                categoryRacePoints[r.club].count++;
+                                rank++;
+                            }
+                            categoryRacePoints[r.club].racePoints += rp;
+                            return { __proto__: r, racePoints: rp };
+                        });
+                    Object.entries(categoryRacePoints).forEach(kv => matchRacePoints[kv[0]] += kv[1].racePoints);
                     return {__proto__: c, matchResults: mr, racePoints: categoryRacePoints};
                 })
     };
@@ -112,27 +119,34 @@ const mSep = "&ndash;";
 
 function makeTable() {
     
+
+
     const r = divisions.map(clubs => roundRobin(clubs).map(c => computeMatchResult(c, result)));
     console.log(r);
     
-    const tbl = document.querySelector("#mytable>tbody");
+    const tbody = document.querySelector("#mytable>tbody");
+    const statusRender = p => (p.status == "Ok") ? "" : ` (${p.status}) `;
+    const pointRender = p => (p.status == "Ok") ? `${p.racePoints}` : "";
 
-    for (var m of r[1]) {
-        const [c0, c1] = m.clubs;
-        tbl.insertAdjacentHTML("beforeend", `<tr class="matchHeader"><td>${c0}</td><td>${m.racePoints[c0]}</td><td>${mSep}</td><td>${m.racePoints[c1]}<td>${c1}</td></tr>`);
-        for (var c of m.categories) {
-            tbl.insertAdjacentHTML("beforeend", `<tr class="catHeader"><td>${c.name}</td><td>${c.racePoints[c0]}</td><td>${mSep}</td><td>${c.racePoints[c1]}<td>${c.name}</td></tr>`);
-            for (var p of c.matchResults) {
-                if (p.club == c0) {
-                    tbl.insertAdjacentHTML("beforeend", `<tr class="indivRes"><td>${p.name}</td><td>${p.racePoints}</td><td /><td /></td></tr>`);
-                }
-                else if (p.club == c1){
-                    tbl.insertAdjacentHTML("beforeend", `<tr class="indivRes"><td /><td /><td /><td>${p.racePoints}<td>${p.name}</td></tr>`);
+    const appendToTableBody = function(tbody, r){
+
+        for (var m of r) {
+            const [c0, c1] = m.clubs;
+            tbody.insertAdjacentHTML("beforeend", `<tr class="matchHeader"><td>${c0}</td><td>${m.racePoints[c0]}</td><td>${mSep}</td><td>${m.racePoints[c1]}<td>${c1}</td></tr>`);
+            for (var c of m.categories) {
+                tbody.insertAdjacentHTML("beforeend", `<tr class="catHeader"><td>${c.name}</td><td>${c.racePoints[c0].racePoints}</td><td>${mSep}</td><td>${c.racePoints[c1].racePoints}<td>${c.name}</td></tr>`);
+                for (var p of c.matchResults) {
+                    if (p.club == c0) {
+                        tbody.insertAdjacentHTML("beforeend", `<tr class="indivRes"><td>${p.name}${statusRender(p)}</td><td>${pointRender(p)}</td><td /><td /><td /></tr>`);
+                    }
+                    else if (p.club == c1){
+                        tbody.insertAdjacentHTML("beforeend", `<tr class="indivRes"><td /><td /><td /><td>${pointRender(p)}<td>${statusRender(p)}${p.name}</td></tr>`);
+                    }
                 }
             }
         }
+    };
 
-
-    }
+    r.forEach(r => appendToTableBody(tbody, r));
 
 }
