@@ -1,1 +1,2953 @@
-{"result":{"slug":"2026-09-06-divisionsmatch","eventName":"Divisionsmatch","activityName":"Divisionsmatch","eventDate":"06/09/2026","eventLocation":"Hald Ege","eventOrganizer":"Viborg OK","championship":false,"discipline":"Foot","eventType":"Division","comment":"","commentUrl":"","oTrackId":16758,"winSplitsId":115221,"categories":[{"name":"Begynder","slug":"begynder","isRelay":false,"individualResults":[{"position":1,"name":"Jarno Falkø","club":"OK Pan","time":1264,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Henning Vide Petersen","club":"Horsens Orienteringsklub","time":2122,"timeBehind":858,"status":"Ok"},{"position":3,"name":"Birte Hering Poulsen","club":"Horsens Orienteringsklub","time":2518,"timeBehind":1254,"status":"Ok"},{"position":4,"name":"Bjørk Due Petersen","club":"OK Pan","time":2662,"timeBehind":1398,"status":"Ok"},{"position":5,"name":"Storm Due Petersen","club":"OK Pan","time":2663,"timeBehind":1399,"status":"Ok"},{"position":6,"name":"Gitte Mønster Jørgensen","club":"Horsens Orienteringsklub","time":3218,"timeBehind":1954,"status":"Ok"},{"position":0,"name":"Ina Mouritsen","club":"Horsens Orienteringsklub","time":0,"timeBehind":0,"status":"Disqualified"}],"teamResults":[]},{"name":"D-20B","slug":"d-20b","isRelay":false,"individualResults":[{"position":1,"name":"Siv Borup Fredberg","club":"Silkeborg OK","time":3939,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Olivia Rusbjerg","club":"Horsens Orienteringsklub","time":4623,"timeBehind":684,"status":"Ok"},{"position":3,"name":"Anna Brinch-Lundgaard","club":"Horsens Orienteringsklub","time":5755,"timeBehind":1816,"status":"Ok"},{"position":4,"name":"Alma Linnea Palmfeldt","club":"OK Pan","time":6881,"timeBehind":2942,"status":"Ok"},{"position":5,"name":"Line Nyborg","club":"Horsens Orienteringsklub","time":7402,"timeBehind":3463,"status":"Ok"}],"teamResults":[]},{"name":"D-20","slug":"d-20","isRelay":false,"individualResults":[{"position":1,"name":"Signe Møller Skaug","club":"OK Pan","time":4235,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Sina Gasser","club":"Silkeborg OK","time":4897,"timeBehind":662,"status":"Ok"},{"position":3,"name":"Mathilde Bobach","club":"OK Pan","time":5204,"timeBehind":969,"status":"Ok"},{"position":4,"name":"Ella Klærke Mikkelsen","club":"Horsens Orienteringsklub","time":6912,"timeBehind":2677,"status":"Ok"}],"teamResults":[]},{"name":"D-10","slug":"d-10","isRelay":false,"individualResults":[{"position":1,"name":"Vilde Dalgaard","club":"Silkeborg OK","time":1480,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Iben Mogensen","club":"Silkeborg OK","time":1491,"timeBehind":11,"status":"Ok"},{"position":3,"name":"Josefine Lyndgård Bobach","club":"Silkeborg OK","time":1527,"timeBehind":47,"status":"Ok"},{"position":4,"name":"Ellen Aagaard Nielsen","club":"Horsens Orienteringsklub","time":1599,"timeBehind":119,"status":"Ok"},{"position":5,"name":"Ronja Meyer Falkø","club":"OK Pan","time":2182,"timeBehind":702,"status":"Ok"},{"position":6,"name":"Karen Djurhuus","club":"Silkeborg OK","time":2785,"timeBehind":1305,"status":"Ok"},{"position":7,"name":"Agnes Taudahl Søndergaard","club":"Herning Orienteringsklub","time":2843,"timeBehind":1363,"status":"Ok"},{"position":0,"name":"Nanna Rosenkilde Christensen","club":"Silkeborg OK","time":0,"timeBehind":0,"status":"Disqualified"}],"teamResults":[]},{"name":"D-12","slug":"d-12","isRelay":false,"individualResults":[{"position":1,"name":"Ester Due Petersen","club":"OK Pan","time":1815,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Josephine Vide Markussen","club":"Horsens Orienteringsklub","time":1835,"timeBehind":20,"status":"Ok"},{"position":3,"name":"Ronja Due Petersen","club":"OK Pan","time":2237,"timeBehind":422,"status":"Ok"},{"position":4,"name":"Mikkeline Overgaard Korsholm","club":"Horsens Orienteringsklub","time":3021,"timeBehind":1206,"status":"Ok"},{"position":5,"name":"Ea Rusbjerg","club":"Horsens Orienteringsklub","time":3226,"timeBehind":1411,"status":"Ok"},{"position":0,"name":"Karen Andersen","club":"Silkeborg OK","time":0,"timeBehind":0,"status":"Disqualified"}],"teamResults":[]},{"name":"D-18","slug":"d-18","isRelay":false,"individualResults":[{"position":1,"name":"Anna Kaldahl Hornbæk","club":"OK Pan","time":4461,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Siv Kusk Berglund","club":"OK Pan","time":5198,"timeBehind":737,"status":"Ok"},{"position":3,"name":"Astrid Lykke Nielsen","club":"Horsens Orienteringsklub","time":5455,"timeBehind":994,"status":"Ok"}],"teamResults":[]},{"name":"D-Let","slug":"d-let","isRelay":false,"individualResults":[{"position":1,"name":"Line Hansen","club":"Silkeborg OK","time":1913,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Line Knudsen","club":"Skive AMOK","time":2107,"timeBehind":194,"status":"Ok"},{"position":3,"name":"Karen Thygesen","club":"Horsens Orienteringsklub","time":2499,"timeBehind":586,"status":"Ok"},{"position":4,"name":"Lizette Pedersen","club":"Horsens Orienteringsklub","time":2845,"timeBehind":932,"status":"Ok"},{"position":5,"name":"Lene Nedergaard Petersen","club":"OK Pan","time":2942,"timeBehind":1029,"status":"Ok"},{"position":6,"name":"Stine Taudahl Søndergaard","club":"Herning Orienteringsklub","time":3157,"timeBehind":1244,"status":"Ok"},{"position":7,"name":"Stefanie Palmfeldt","club":"OK Pan","time":3200,"timeBehind":1287,"status":"Ok"},{"position":8,"name":"Diana Nyborg","club":"Horsens Orienteringsklub","time":3339,"timeBehind":1426,"status":"Ok"},{"position":9,"name":"Erna Germann","club":"Horsens Orienteringsklub","time":3723,"timeBehind":1810,"status":"Ok"},{"position":10,"name":"Inger Kongsgaard Jakobsen","club":"Silkeborg OK","time":4125,"timeBehind":2212,"status":"Ok"},{"position":0,"name":"Susanne Gasbjerg","club":"Silkeborg OK","time":0,"timeBehind":0,"status":"Disqualified"}],"teamResults":[]},{"name":"D-16","slug":"d-16","isRelay":false,"individualResults":[{"position":1,"name":"Kille Beuchert","club":"OK Pan","time":2922,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Sophia Birch Honore","club":"Silkeborg OK","time":4564,"timeBehind":1642,"status":"Ok"},{"position":3,"name":"Freja Toft Møller Mikkelsen","club":"Horsens Orienteringsklub","time":5733,"timeBehind":2811,"status":"Ok"}],"teamResults":[]},{"name":"D-14","slug":"d-14","isRelay":false,"individualResults":[{"position":1,"name":"Clara R. Christensen","club":"Silkeborg OK","time":2919,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Ellen Andersen","club":"Silkeborg OK","time":3269,"timeBehind":350,"status":"Ok"},{"position":3,"name":"Thora Toft Møller Mikkelsen","club":"Horsens Orienteringsklub","time":6169,"timeBehind":3250,"status":"Ok"},{"position":0,"name":"Lærke Skammelsen Gilleladen","club":"OK Pan","time":0,"timeBehind":0,"status":"Disqualified"}],"teamResults":[]},{"name":"D-14B","slug":"d-14b","isRelay":false,"individualResults":[{"position":1,"name":"Luna Damsgaard Ravn","club":"Silkeborg OK","time":2150,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Johanne Sundahl Jespersen","club":"Horsens Orienteringsklub","time":2598,"timeBehind":448,"status":"Ok"},{"position":3,"name":"Lærke Thorgaard Madsen","club":"Horsens Orienteringsklub","time":2966,"timeBehind":816,"status":"Ok"},{"position":4,"name":"Marie Brinch-Lundgaard","club":"Horsens Orienteringsklub","time":2973,"timeBehind":823,"status":"Ok"}],"teamResults":[]},{"name":"D21-","slug":"d21-","isRelay":false,"individualResults":[{"position":1,"name":"Camilla Bevensee","club":"OK Pan","time":4114,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Ane Linde","club":"Silkeborg OK","time":4135,"timeBehind":21,"status":"Ok"},{"position":3,"name":"Rikke Vide Markussen","club":"Horsens Orienteringsklub","time":5000,"timeBehind":886,"status":"Ok"},{"position":4,"name":"Theresa Skouboe","club":"Horsens Orienteringsklub","time":5145,"timeBehind":1031,"status":"Ok"},{"position":5,"name":"Anna Movin","club":"Silkeborg OK","time":6298,"timeBehind":2184,"status":"Ok"},{"position":6,"name":"Rebeka Vincze","club":"Horsens Orienteringsklub","time":6522,"timeBehind":2408,"status":"Ok"},{"position":7,"name":"Anne Gammelmark Therkildsen","club":"OK Pan","time":6745,"timeBehind":2631,"status":"Ok"},{"position":8,"name":"Kristina Bøge Meyhoff","club":"Silkeborg OK","time":6767,"timeBehind":2653,"status":"Ok"},{"position":0,"name":"Laura Kaldahl Hornbæk","club":"OK Pan","time":0,"timeBehind":0,"status":"Disqualified"},{"position":0,"name":"Alberte Karoline Thyssen","club":"Horsens Orienteringsklub","time":0,"timeBehind":0,"status":"Disqualified"}],"teamResults":[]},{"name":"D21B","slug":"d21b","isRelay":false,"individualResults":[{"position":1,"name":"Margrethe Dalgaard","club":"Silkeborg OK","time":3324,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Agnete Viuff","club":"Horsens Orienteringsklub","time":3432,"timeBehind":108,"status":"Ok"},{"position":3,"name":"Tine Kristensen","club":"OK Pan","time":3597,"timeBehind":273,"status":"Ok"},{"position":4,"name":"Susanne Hykkelbjerg Petersen","club":"OK Pan","time":3788,"timeBehind":464,"status":"Ok"},{"position":5,"name":"Malene Aagaard Nielsen","club":"Horsens Orienteringsklub","time":3984,"timeBehind":660,"status":"Ok"},{"position":6,"name":"Anne Meyer Knudsen","club":"OK Pan","time":4115,"timeBehind":791,"status":"Ok"},{"position":7,"name":"Line Hvilsted Hansen","club":"Silkeborg OK","time":4346,"timeBehind":1022,"status":"Ok"},{"position":8,"name":"Camilla Seest Lind","club":"Silkeborg OK","time":4694,"timeBehind":1370,"status":"Ok"},{"position":9,"name":"Louise Brink Rasmussen","club":"Herning Orienteringsklub","time":6098,"timeBehind":2774,"status":"Ok"},{"position":0,"name":"Kirsten Almind Nielsen","club":"Horsens Orienteringsklub","time":0,"timeBehind":0,"status":"Disqualified"}],"teamResults":[]},{"name":"D40","slug":"d40","isRelay":false,"individualResults":[{"position":1,"name":"Rie Stenhøj Baun McGrail","club":"Silkeborg OK","time":3299,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Stinne Skammelsen","club":"OK Pan","time":4571,"timeBehind":1272,"status":"Ok"},{"position":3,"name":"Mette Børsting Klenum","club":"Silkeborg OK","time":4670,"timeBehind":1371,"status":"Ok"},{"position":4,"name":"Gitte Lervad Lundø","club":"Horsens Orienteringsklub","time":5313,"timeBehind":2014,"status":"Ok"},{"position":5,"name":"Hanne Borup Fredberg","club":"Silkeborg OK","time":5413,"timeBehind":2114,"status":"Ok"},{"position":6,"name":"Susanne Kristensen","club":"Herning Orienteringsklub","time":6040,"timeBehind":2741,"status":"Ok"},{"position":7,"name":"Annette Kjeldsen","club":"Horsens Orienteringsklub","time":6154,"timeBehind":2855,"status":"Ok"},{"position":8,"name":"Bettina Toft Møller Mikkelsen","club":"Horsens Orienteringsklub","time":6240,"timeBehind":2941,"status":"Ok"},{"position":9,"name":"Tina Kronborg Vallentin","club":"Horsens Orienteringsklub","time":6941,"timeBehind":3642,"status":"Ok"}],"teamResults":[]},{"name":"D45B","slug":"d45b","isRelay":false,"individualResults":[{"position":1,"name":"Christina Hjøllund","club":"Silkeborg OK","time":3499,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Dorte Grinderslev","club":"Horsens Orienteringsklub","time":3649,"timeBehind":150,"status":"Ok"},{"position":3,"name":"Lene Bang Jensen","club":"Silkeborg OK","time":4116,"timeBehind":617,"status":"Ok"},{"position":4,"name":"Anette Bagger Sørensen","club":"Silkeborg OK","time":4211,"timeBehind":712,"status":"Ok"},{"position":5,"name":"Tove Jessen","club":"Herning Orienteringsklub","time":4424,"timeBehind":925,"status":"Ok"},{"position":6,"name":"Rie Rusbjerg","club":"Horsens Orienteringsklub","time":6672,"timeBehind":3173,"status":"Ok"}],"teamResults":[]},{"name":"D50","slug":"d50","isRelay":false,"individualResults":[{"position":1,"name":"Rikke Holm","club":"Horsens Orienteringsklub","time":2906,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Heidi Hinge Krogsgaard","club":"Silkeborg OK","time":3542,"timeBehind":636,"status":"Ok"},{"position":3,"name":"Irene K. Mikkelsen","club":"Horsens Orienteringsklub","time":3570,"timeBehind":664,"status":"Ok"},{"position":4,"name":"Signe Faber","club":"Silkeborg OK","time":3579,"timeBehind":673,"status":"Ok"},{"position":5,"name":"Elise Utzen Keller","club":"Horsens Orienteringsklub","time":3667,"timeBehind":761,"status":"Ok"},{"position":6,"name":"Jeanette Finderup","club":"OK Pan","time":4373,"timeBehind":1467,"status":"Ok"},{"position":7,"name":"Nina Jacobsen","club":"Silkeborg OK","time":4492,"timeBehind":1586,"status":"Ok"},{"position":8,"name":"Mette Ellegaard Kokholm","club":"Horsens Orienteringsklub","time":5161,"timeBehind":2255,"status":"Ok"},{"position":9,"name":"Anette Pind","club":"Silkeborg OK","time":5236,"timeBehind":2330,"status":"Ok"}],"teamResults":[]},{"name":"D60","slug":"d60","isRelay":false,"individualResults":[{"position":1,"name":"Lucia Aagaard","club":"Herning Orienteringsklub","time":2483,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Britta Ank Pedersen","club":"Horsens Orienteringsklub","time":2663,"timeBehind":180,"status":"Ok"},{"position":3,"name":"Trine Ravn","club":"Horsens Orienteringsklub","time":2759,"timeBehind":276,"status":"Ok"},{"position":4,"name":"Tove Jakobsen","club":"Silkeborg OK","time":3154,"timeBehind":671,"status":"Ok"},{"position":5,"name":"Vibeke Jørgensen","club":"OK Pan","time":3158,"timeBehind":675,"status":"Ok"},{"position":6,"name":"Susanne Høiberg","club":"Silkeborg OK","time":3598,"timeBehind":1115,"status":"Ok"},{"position":7,"name":"Karen Sieg","club":"Horsens Orienteringsklub","time":3611,"timeBehind":1128,"status":"Ok"},{"position":8,"name":"Lene Kofoed Petersen","club":"Horsens Orienteringsklub","time":3948,"timeBehind":1465,"status":"Ok"},{"position":9,"name":"Helle Klenum","club":"Silkeborg OK","time":5402,"timeBehind":2919,"status":"Ok"}],"teamResults":[]},{"name":"D70","slug":"d70","isRelay":false,"individualResults":[{"position":1,"name":"Ingrid Johannsen","club":"Silkeborg OK","time":2003,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Susanne Baun","club":"Horsens Orienteringsklub","time":2204,"timeBehind":201,"status":"Ok"},{"position":3,"name":"Siri Økstad","club":"Oddersjaa","time":2449,"timeBehind":446,"status":"Ok"},{"position":4,"name":"Mona Nørgaard","club":"OK Pan","time":2655,"timeBehind":652,"status":"Ok"},{"position":5,"name":"Tove Straarup","club":"Horsens Orienteringsklub","time":2822,"timeBehind":819,"status":"Ok"},{"position":6,"name":"Ann Dorrit Hansen","club":"OK Djurs","time":3047,"timeBehind":1044,"status":"Ok"},{"position":7,"name":"Elin Holm Jensen","club":"Horsens Orienteringsklub","time":3088,"timeBehind":1085,"status":"Ok"},{"position":8,"name":"Vibeke Vogelius","club":"Silkeborg OK","time":3240,"timeBehind":1237,"status":"Ok"},{"position":9,"name":"Anni Jensen","club":"Herning Orienteringsklub","time":3519,"timeBehind":1516,"status":"Ok"},{"position":10,"name":"Anne-Mette Kirkegaard","club":"Silkeborg OK","time":4291,"timeBehind":2288,"status":"Ok"}],"teamResults":[]},{"name":"D80","slug":"d80","isRelay":false,"individualResults":[{"position":1,"name":"Aase Thyssen","club":"Horsens Orienteringsklub","time":4204,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Karen-Lisbeth Fredberg","club":"Silkeborg OK","time":4275,"timeBehind":71,"status":"Ok"},{"position":3,"name":"Kirsten Skovbjerg","club":"Horsens Orienteringsklub","time":6190,"timeBehind":1986,"status":"Ok"}],"teamResults":[]},{"name":"H-Let","slug":"h-let","isRelay":false,"individualResults":[{"position":1,"name":"Christian Markussen","club":"Horsens Orienteringsklub","time":1534,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Johan Palmfeldt","club":"OK Pan","time":1708,"timeBehind":174,"status":"Ok"},{"position":3,"name":"Jesper Toft Møller Mikkelsen","club":"Horsens Orienteringsklub","time":1792,"timeBehind":258,"status":"Ok"},{"position":4,"name":"Bjarne Lysdal","club":"Silkeborg OK","time":2398,"timeBehind":864,"status":"Ok"},{"position":5,"name":"John Winther","club":"Horsens Orienteringsklub","time":2730,"timeBehind":1196,"status":"Ok"},{"position":6,"name":"Brian Thukær Madsen","club":"Horsens Orienteringsklub","time":3015,"timeBehind":1481,"status":"Ok"},{"position":7,"name":"Mads Andreassen","club":"Herning Orienteringsklub","time":3197,"timeBehind":1663,"status":"Ok"},{"position":8,"name":"Ulrik Christiansen","club":"Horsens Orienteringsklub","time":3204,"timeBehind":1670,"status":"Ok"}],"teamResults":[]},{"name":"H10","slug":"h10","isRelay":false,"individualResults":[{"position":1,"name":"Oliver Vide Markussen","club":"Horsens Orienteringsklub","time":1039,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Einar Dalgaard","club":"Silkeborg OK","time":1183,"timeBehind":144,"status":"Ok"},{"position":3,"name":"Magnus Honore","club":"Silkeborg OK","time":1257,"timeBehind":218,"status":"Ok"},{"position":4,"name":"Bjørn Vestergaard Tandal","club":"Skive AMOK","time":1338,"timeBehind":299,"status":"Ok"},{"position":5,"name":"Lucas Sloth Bobach","club":"OK Pan","time":1381,"timeBehind":342,"status":"Ok"},{"position":6,"name":"Asger Sandegaard","club":"OK Pan","time":1395,"timeBehind":356,"status":"Ok"},{"position":7,"name":"Mikkel Ove Jacobsen","club":"Horsens Orienteringsklub","time":1476,"timeBehind":437,"status":"Ok"},{"position":8,"name":"Aske Viuff","club":"Horsens Orienteringsklub","time":1738,"timeBehind":699,"status":"Ok"},{"position":9,"name":"Sigurd Refslund","club":"OK Pan","time":1962,"timeBehind":923,"status":"Ok"},{"position":10,"name":"Alfred Taudal Søndergaard","club":"Herning Orienteringsklub","time":2190,"timeBehind":1151,"status":"Ok"},{"position":11,"name":"Emil Djurhuus","club":"Silkeborg OK","time":2790,"timeBehind":1751,"status":"Ok"},{"position":12,"name":"Malik Meyer Falkø","club":"OK Pan","time":3210,"timeBehind":2171,"status":"Ok"}],"teamResults":[]},{"name":"H12","slug":"h12","isRelay":false,"individualResults":[{"position":1,"name":"Kirk Beuchert","club":"OK Pan","time":1367,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Mathias Linde Lassen","club":"Silkeborg OK","time":1673,"timeBehind":306,"status":"Ok"},{"position":3,"name":"Malte Leander Palmfeldt","club":"OK Pan","time":1715,"timeBehind":348,"status":"Ok"},{"position":4,"name":"Maks Ove Jacobsen","club":"Horsens Orienteringsklub","time":2398,"timeBehind":1031,"status":"Ok"},{"position":5,"name":"Magne Birkelund Mouritsen","club":"Horsens Orienteringsklub","time":4721,"timeBehind":3354,"status":"Ok"},{"position":0,"name":"Torbjørn Kjær Rasmussen","club":"Silkeborg OK","time":0,"timeBehind":0,"status":"Disqualified"}],"teamResults":[]},{"name":"H12B","slug":"h12b","isRelay":false,"individualResults":[{"position":1,"name":"Bjørn Sander","club":"Horsens Orienteringsklub","time":1688,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Sebastian Linde Lassen","club":"Silkeborg OK","time":2420,"timeBehind":732,"status":"Ok"},{"position":3,"name":"Frederik Jacobsen Milicic","club":"Horsens Orienteringsklub","time":3341,"timeBehind":1653,"status":"Ok"}],"teamResults":[]},{"name":"H14","slug":"h14","isRelay":false,"individualResults":[{"position":1,"name":"Esben Christensen","club":"Silkeborg OK","time":2404,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Magnus Oscar Søes","club":"Silkeborg OK","time":2562,"timeBehind":158,"status":"Ok"},{"position":3,"name":"Robert Lervad Lundø","club":"Horsens Orienteringsklub","time":2828,"timeBehind":424,"status":"Ok"},{"position":4,"name":"Richard Elias Kronborg Vallentin","club":"Horsens Orienteringsklub","time":3338,"timeBehind":934,"status":"Ok"},{"position":5,"name":"Magne Halvor Obel","club":"OK Pan","time":3527,"timeBehind":1123,"status":"Ok"}],"teamResults":[]},{"name":"H14B","slug":"h14b","isRelay":false,"individualResults":[{"position":1,"name":"Lea Thygesen","club":"Horsens Orienteringsklub","time":3361,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Rakel Christensen Rasch","club":"Horsens Orienteringsklub","time":3392,"timeBehind":31,"status":"Ok"}],"teamResults":[]},{"name":"H16","slug":"h16","isRelay":false,"individualResults":[{"position":1,"name":"Esben Johan Obel","club":"OK Pan","time":2740,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Jonas Klærke Mikkelsen","club":"Horsens Orienteringsklub","time":4650,"timeBehind":1910,"status":"Ok"},{"position":3,"name":"Kristine Skouboe","club":"Horsens Orienteringsklub","time":5052,"timeBehind":2312,"status":"Ok"},{"position":0,"name":"Lucas McGrail","club":"Silkeborg OK","time":0,"timeBehind":0,"status":"Disqualified"}],"teamResults":[]},{"name":"H18","slug":"h18","isRelay":false,"individualResults":[{"position":1,"name":"Mattias Klostergaard Rokkjær","club":"Silkeborg OK","time":3362,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Emil Borup Fredberg","club":"Silkeborg OK","time":3515,"timeBehind":153,"status":"Ok"},{"position":3,"name":"Eskild Stig Nielsen","club":"Horsens Orienteringsklub","time":3694,"timeBehind":332,"status":"Ok"},{"position":0,"name":"Karl-Bertil Skovkjær","club":"Silkeborg OK","time":0,"timeBehind":0,"status":"Disqualified"}],"teamResults":[]},{"name":"H20","slug":"h20","isRelay":false,"individualResults":[{"position":1,"name":"Asbjørn Faber Fenger-Grøn","club":"Silkeborg OK","time":3232,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Lukas Bergmann Verhelst","club":"Horsens Orienteringsklub","time":3437,"timeBehind":205,"status":"Ok"}],"teamResults":[]},{"name":"H20B","slug":"h20b","isRelay":false,"individualResults":[{"position":1,"name":"William Stenhøj Baun McGrail","club":"Silkeborg OK","time":4186,"timeBehind":0,"status":"Ok"}],"teamResults":[]},{"name":"H21","slug":"h21","isRelay":false,"individualResults":[{"position":1,"name":"Laurits Bidstrup Møller","club":"Silkeborg OK","time":2998,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Søren Bobach","club":"OK Pan","time":3064,"timeBehind":66,"status":"Ok"},{"position":3,"name":"Tue Lassen","club":"Silkeborg OK","time":3070,"timeBehind":72,"status":"Ok"},{"position":4,"name":"Oscar Sig Tranberg","club":"OK Pan","time":3134,"timeBehind":136,"status":"Ok"},{"position":5,"name":"Elias Hinge Krogsgaard","club":"Silkeborg OK","time":3205,"timeBehind":207,"status":"Ok"},{"position":6,"name":"Rasmus Djurhuus","club":"OK Pan","time":3400,"timeBehind":402,"status":"Ok"},{"position":7,"name":"Morten Fenger-Grøn","club":"Silkeborg OK","time":3477,"timeBehind":479,"status":"Ok"},{"position":8,"name":"Mátyás Péntek","club":"Horsens Orienteringsklub","time":4035,"timeBehind":1037,"status":"Ok"},{"position":9,"name":"Mikkel Holm Nielsen","club":"OK Pan","time":4252,"timeBehind":1254,"status":"Ok"},{"position":10,"name":"Rasmus Holm Andersen","club":"Silkeborg OK","time":4427,"timeBehind":1429,"status":"Ok"},{"position":11,"name":"Stefan Keller","club":"Horsens Orienteringsklub","time":4937,"timeBehind":1939,"status":"Ok"},{"position":12,"name":"Thomas Emil Jensen","club":"Horsens Orienteringsklub","time":5012,"timeBehind":2014,"status":"Ok"},{"position":13,"name":"Astrid Gylling Hougaard","club":"Aarhus 1900 Orientering","time":5477,"timeBehind":2479,"status":"Ok"},{"position":14,"name":"Bjørn Garsdal","club":"Herning Orienteringsklub","time":6053,"timeBehind":3055,"status":"Ok"},{"position":15,"name":"Benjamin Andreas Brunbjerg Nielsen","club":"Aarhus 1900 Orientering","time":6218,"timeBehind":3220,"status":"Ok"},{"position":16,"name":"Brian Aagaard Nielsen","club":"Horsens Orienteringsklub","time":6349,"timeBehind":3351,"status":"Ok"},{"position":17,"name":"Allan Hougaard","club":"Aarhus 1900 Orientering","time":6360,"timeBehind":3362,"status":"Ok"},{"position":18,"name":"Kenn Heldgaard Kristensen","club":"Herning Orienteringsklub","time":6458,"timeBehind":3460,"status":"Ok"}],"teamResults":[]},{"name":"H21B","slug":"h21b","isRelay":false,"individualResults":[{"position":1,"name":"Kasper Bøgh-Lauridsen","club":"Horsens Orienteringsklub","time":3361,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Tyge Kjær Rasmussen","club":"Silkeborg OK","time":3545,"timeBehind":184,"status":"Ok"},{"position":3,"name":"Tommy Jakobsen","club":"Horsens Orienteringsklub","time":3921,"timeBehind":560,"status":"Ok"},{"position":4,"name":"Thomas Hornbæk","club":"OK Pan","time":4054,"timeBehind":693,"status":"Ok"},{"position":5,"name":"Dmitriy Artamonov","club":"Mariager Fjord OK","time":5176,"timeBehind":1815,"status":"Ok"},{"position":0,"name":"Søren Seest","club":"Silkeborg OK","time":0,"timeBehind":0,"status":"Disqualified"}],"teamResults":[]},{"name":"H40","slug":"h40","isRelay":false,"individualResults":[{"position":1,"name":"René Rokkjær","club":"Silkeborg OK","time":3293,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Morten Pedersen","club":"OK Pan","time":4333,"timeBehind":1040,"status":"Ok"},{"position":3,"name":"Christian Christensen","club":"Silkeborg OK","time":4477,"timeBehind":1184,"status":"Ok"},{"position":4,"name":"Ole Lind","club":"Ballerup OK","time":4515,"timeBehind":1222,"status":"Ok"},{"position":5,"name":"Peter Lindberg Thomadsen","club":"Horsens Orienteringsklub","time":4791,"timeBehind":1498,"status":"Ok"},{"position":6,"name":"Esben Dalgaard","club":"Silkeborg OK","time":4897,"timeBehind":1604,"status":"Ok"},{"position":7,"name":"Jens Peder Jørgensen","club":"Herning Orienteringsklub","time":5731,"timeBehind":2438,"status":"Ok"},{"position":8,"name":"Mads Mikkelsen","club":"Horsens Orienteringsklub","time":5832,"timeBehind":2539,"status":"Ok"},{"position":9,"name":"Søren Rusbjerg","club":"Horsens Orienteringsklub","time":7137,"timeBehind":3844,"status":"Ok"},{"position":10,"name":"Kim Birkelund","club":"Horsens Orienteringsklub","time":8087,"timeBehind":4794,"status":"Ok"},{"position":0,"name":"Lasse Due Petersen","club":"OK Pan","time":0,"timeBehind":0,"status":"Disqualified"},{"position":0,"name":"Morten Obel","club":"OK Pan","time":0,"timeBehind":0,"status":"Disqualified"}],"teamResults":[]},{"name":"H45B","slug":"h45b","isRelay":false,"individualResults":[{"position":1,"name":"Michael Jensen","club":"Horsens Orienteringsklub","time":3097,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Thomas Nielsen","club":"Silkeborg OK","time":3253,"timeBehind":156,"status":"Ok"},{"position":3,"name":"Claus Gammelmark Therkildsen","club":"OK Pan","time":3611,"timeBehind":514,"status":"Ok"},{"position":4,"name":"Uffe Weiglin","club":"Herning Orienteringsklub","time":3996,"timeBehind":899,"status":"Ok"},{"position":5,"name":"Thomas Herbert Kokholm","club":"Horsens Orienteringsklub","time":3999,"timeBehind":902,"status":"Ok"},{"position":6,"name":"Peter Kilden Jensen","club":"OK Pan","time":5002,"timeBehind":1905,"status":"Ok"},{"position":7,"name":"Jørgen Jørgensen","club":"Silkeborg OK","time":5111,"timeBehind":2014,"status":"Ok"},{"position":8,"name":"Henning Mindstruplund","club":"Horsens Orienteringsklub","time":5206,"timeBehind":2109,"status":"Ok"},{"position":9,"name":"Dennis Lindeberg Hansen","club":"Silkeborg OK","time":5476,"timeBehind":2379,"status":"Ok"},{"position":10,"name":"Michael Arne Jensen","club":"Silkeborg OK","time":5506,"timeBehind":2409,"status":"Ok"},{"position":11,"name":"Erik Skjøth Sørensen","club":"Silkeborg OK","time":6164,"timeBehind":3067,"status":"Ok"},{"position":12,"name":"Thomas Nikolajsen","club":"Horsens Orienteringsklub","time":8062,"timeBehind":4965,"status":"Ok"},{"position":0,"name":"Erik Brixen","club":"Herning Orienteringsklub","time":0,"timeBehind":0,"status":"Disqualified"}],"teamResults":[]},{"name":"H50","slug":"h50","isRelay":false,"individualResults":[{"position":1,"name":"Thomas Fredberg","club":"Silkeborg OK","time":2637,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Patrick McGrail","club":"Silkeborg OK","time":2691,"timeBehind":54,"status":"Ok"},{"position":3,"name":"Keld Hinge Krogsgaard","club":"Silkeborg OK","time":3091,"timeBehind":454,"status":"Ok"},{"position":4,"name":"Carsten Thyssen","club":"Horsens Orienteringsklub","time":3145,"timeBehind":508,"status":"Ok"},{"position":5,"name":"Ebbe Møller Nielsen","club":"OK Pan","time":3161,"timeBehind":524,"status":"Ok"},{"position":6,"name":"Kell Sønnichsen","club":"OK Pan","time":3275,"timeBehind":638,"status":"Ok"},{"position":7,"name":"Troels Nielsen","club":"Horsens Orienteringsklub","time":3392,"timeBehind":755,"status":"Ok"},{"position":8,"name":"Nicolaj Nielsen","club":"Horsens Orienteringsklub","time":3547,"timeBehind":910,"status":"Ok"},{"position":9,"name":"Henrik Blakskjær","club":"OK Pan","time":3905,"timeBehind":1268,"status":"Ok"},{"position":10,"name":"Per Mønster Jørgensen","club":"Horsens Orienteringsklub","time":4315,"timeBehind":1678,"status":"Ok"},{"position":11,"name":"Allan Thesbjerg","club":"Horsens Orienteringsklub","time":4500,"timeBehind":1863,"status":"Ok"},{"position":12,"name":"Jonas Persson","club":"Silkeborg OK","time":4556,"timeBehind":1919,"status":"Ok"},{"position":13,"name":"Jørn Riis","club":"OK Pan","time":4722,"timeBehind":2085,"status":"Ok"},{"position":14,"name":"Peter Feilberg Schjødt","club":"OK Pan","time":6016,"timeBehind":3379,"status":"Ok"},{"position":0,"name":"Lasse Madsen","club":"Mariager Fjord OK","time":0,"timeBehind":0,"status":"Disqualified"}],"teamResults":[]},{"name":"H60","slug":"h60","isRelay":false,"individualResults":[{"position":1,"name":"Kent Kragh","club":"OK Pan","time":2284,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Morten Kjær","club":"Silkeborg OK","time":2717,"timeBehind":433,"status":"Ok"},{"position":3,"name":"Kent Lodberg","club":"OK Pan","time":2989,"timeBehind":705,"status":"Ok"},{"position":4,"name":"Jens Børsting Klenum","club":"Silkeborg OK","time":3250,"timeBehind":966,"status":"Ok"},{"position":5,"name":"Torben Kragh","club":"OK Pan","time":3339,"timeBehind":1055,"status":"Ok"},{"position":6,"name":"Jens Ozol","club":"Silkeborg OK","time":3340,"timeBehind":1056,"status":"Ok"},{"position":7,"name":"Mogens Hagner","club":"Silkeborg OK","time":3553,"timeBehind":1269,"status":"Ok"},{"position":8,"name":"Anker Møller","club":"Silkeborg OK","time":3633,"timeBehind":1349,"status":"Ok"},{"position":9,"name":"Morten Christensen","club":"Herning Orienteringsklub","time":3718,"timeBehind":1434,"status":"Ok"},{"position":10,"name":"Michael Straube","club":"Horsens Orienteringsklub","time":4271,"timeBehind":1987,"status":"Ok"},{"position":11,"name":"Frank Krog Jensen","club":"Horsens Orienteringsklub","time":4299,"timeBehind":2015,"status":"Ok"},{"position":12,"name":"Leif Rønn Olsen","club":"Herning Orienteringsklub","time":4638,"timeBehind":2354,"status":"Ok"},{"position":13,"name":"Claus Etzerodt","club":"Horsens Orienteringsklub","time":4974,"timeBehind":2690,"status":"Ok"},{"position":14,"name":"Søren Søgaard Nielsen","club":"Herning Orienteringsklub","time":5211,"timeBehind":2927,"status":"Ok"},{"position":15,"name":"Carsten Bai","club":"Horsens Orienteringsklub","time":5873,"timeBehind":3589,"status":"Ok"},{"position":16,"name":"Carsten Lind Clemmensen","club":"Rold Skov OK","time":7588,"timeBehind":5304,"status":"Ok"},{"position":0,"name":"Jan Thomsen","club":"OK Pan","time":0,"timeBehind":0,"status":"Disqualified"},{"position":0,"name":"Erik Bobach","club":"Silkeborg OK","time":0,"timeBehind":0,"status":"Disqualified"},{"position":0,"name":"Hans Jørgen Vad","club":"Horsens Orienteringsklub","time":0,"timeBehind":0,"status":"Disqualified"}],"teamResults":[]},{"name":"H70","slug":"h70","isRelay":false,"individualResults":[{"position":1,"name":"Per Torgersen","club":"Oddersjaa","time":1940,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Jørgen Münster-Swendsen","club":"Silkeborg OK","time":2396,"timeBehind":456,"status":"Ok"},{"position":3,"name":"Kaj Kaspersen","club":"Herning Orienteringsklub","time":2631,"timeBehind":691,"status":"Ok"},{"position":4,"name":"Jens Jørgen Jensen","club":"Herning Orienteringsklub","time":2731,"timeBehind":791,"status":"Ok"},{"position":5,"name":"Knud Fjordvald","club":"Silkeborg OK","time":2790,"timeBehind":850,"status":"Ok"},{"position":6,"name":"Peer Straarup","club":"Horsens Orienteringsklub","time":2799,"timeBehind":859,"status":"Ok"},{"position":7,"name":"Flemming Johannsen","club":"Silkeborg OK","time":2986,"timeBehind":1046,"status":"Ok"},{"position":8,"name":"Henning Overgaard","club":"OK Pan","time":3315,"timeBehind":1375,"status":"Ok"},{"position":9,"name":"Eigil Nielsen","club":"Horsens Orienteringsklub","time":3332,"timeBehind":1392,"status":"Ok"},{"position":10,"name":"Niels Bobach","club":"Aalborg Orienteringsklub","time":3395,"timeBehind":1455,"status":"Ok"},{"position":11,"name":"Ulrik Mathiasen","club":"Silkeborg OK","time":3571,"timeBehind":1631,"status":"Ok"},{"position":12,"name":"Poul Erik Christensen","club":"Horsens Orienteringsklub","time":3605,"timeBehind":1665,"status":"Ok"},{"position":13,"name":"Ivan Christensen","club":"OK Pan","time":3613,"timeBehind":1673,"status":"Ok"},{"position":14,"name":"Troels Jensen","club":"Horsens Orienteringsklub","time":3713,"timeBehind":1773,"status":"Ok"},{"position":15,"name":"Poul Egander Grøn","club":"Silkeborg OK","time":3751,"timeBehind":1811,"status":"Ok"},{"position":16,"name":"Carl Malling","club":"Randers OK","time":3796,"timeBehind":1856,"status":"Ok"},{"position":17,"name":"Peter Trier","club":"OK Pan","time":3803,"timeBehind":1863,"status":"Ok"},{"position":18,"name":"Christian Gottlieb-Petersen","club":"OK Pan","time":4029,"timeBehind":2089,"status":"Ok"},{"position":19,"name":"Frank Linde","club":"OK Pan","time":4381,"timeBehind":2441,"status":"Ok"},{"position":20,"name":"Gunnar Gjermandsen","club":"Horsens Orienteringsklub","time":4544,"timeBehind":2604,"status":"Ok"},{"position":21,"name":"Ole Thy","club":"Rold Skov OK","time":5464,"timeBehind":3524,"status":"Ok"},{"position":0,"name":"Jørn Egeberg","club":"Horsens Orienteringsklub","time":0,"timeBehind":0,"status":"Disqualified"},{"position":0,"name":"Finn Simensen","club":"OK Pan","time":0,"timeBehind":0,"status":"Disqualified"}],"teamResults":[]},{"name":"H80","slug":"h80","isRelay":false,"individualResults":[{"position":1,"name":"Max Hansen","club":"OK Djurs","time":2062,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Claus Faber","club":"Silkeborg OK","time":2187,"timeBehind":125,"status":"Ok"},{"position":3,"name":"Poul Nøhr","club":"Silkeborg OK","time":2385,"timeBehind":323,"status":"Ok"},{"position":4,"name":"Flemming Nørgaard","club":"OK Pan","time":2466,"timeBehind":404,"status":"Ok"},{"position":5,"name":"Torben Jørgensen","club":"Silkeborg OK","time":2663,"timeBehind":601,"status":"Ok"},{"position":6,"name":"Knud Sørensen","club":"OK Pan","time":3064,"timeBehind":1002,"status":"Ok"},{"position":7,"name":"Jørgen Thyssen","club":"Horsens Orienteringsklub","time":3085,"timeBehind":1023,"status":"Ok"},{"position":8,"name":"Asger Kristensen","club":"Herning Orienteringsklub","time":3447,"timeBehind":1385,"status":"Ok"},{"position":9,"name":"Jørgen Jensen","club":"Horsens Orienteringsklub","time":5179,"timeBehind":3117,"status":"Ok"},{"position":0,"name":"Lars Ole Larsen","club":"Silkeborg OK","time":0,"timeBehind":0,"status":"Disqualified"},{"position":0,"name":"Erik Anders Jensen","club":"Silkeborg OK","time":0,"timeBehind":0,"status":"Disqualified"}],"teamResults":[]},{"name":"Åben 1","slug":"aaben-1","isRelay":false,"individualResults":[{"position":1,"name":"Isak Riis Persson","club":"OK Pan","time":4023,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Lukas Ulriksen","club":"Dansk Orienterings-Forbund","time":5771,"timeBehind":1748,"status":"Ok"},{"position":0,"name":"Anders Munch","club":"Viborg OK","time":0,"timeBehind":0,"status":"Disqualified"}],"teamResults":[]},{"name":"Åben 2","slug":"aaben-2","isRelay":false,"individualResults":[{"position":1,"name":"Maria Halberg","club":"Dansk Orienterings-Forbund","time":5193,"timeBehind":0,"status":"Ok"}],"teamResults":[]},{"name":"Åben 4","slug":"aaben-4","isRelay":false,"individualResults":[{"position":1,"name":"Tomas Torgersen","club":"Oddersjaa","time":3360,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Holger Refslund","club":"Dansk Orienterings-Forbund","time":3870,"timeBehind":510,"status":"Ok"},{"position":3,"name":"Carsten Helligsø","club":"Karup OK","time":4313,"timeBehind":953,"status":"Ok"}],"teamResults":[]},{"name":"Åben 5","slug":"aaben-5","isRelay":false,"individualResults":[{"position":1,"name":"Søren Munthe","club":"Mariager Fjord OK","time":2649,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Troels Munthe","club":"Mariager Fjord OK","time":4047,"timeBehind":1398,"status":"Ok"},{"position":3,"name":"Helmuth Poul Hilden","club":"Rold Skov OK","time":5251,"timeBehind":2602,"status":"Ok"}],"teamResults":[]},{"name":"Åben 6","slug":"aaben-6","isRelay":false,"individualResults":[{"position":1,"name":"Steen Larsen-Veddel","club":"OK Pan","time":2389,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Inge Løvig","club":"Skive AMOK","time":2629,"timeBehind":240,"status":"Ok"}],"teamResults":[]},{"name":"Åben 8","slug":"aaben-8","isRelay":false,"individualResults":[{"position":1,"name":"Roar Amundsen","club":"Horsens Orienteringsklub","time":3945,"timeBehind":0,"status":"Ok"}],"teamResults":[]},{"name":"Åben 9","slug":"aaben-9","isRelay":false,"individualResults":[{"position":1,"name":"Mille Mathilde Hvilsted Hansen","club":"Silkeborg OK","time":1811,"timeBehind":0,"status":"Ok"},{"position":2,"name":"Astrid Vangsgaard","club":"Rold Skov OK","time":1962,"timeBehind":151,"status":"Ok"}],"teamResults":[]}],"relatedEvents":[],"centerLatitude":56.40985570756894,"centerLongitude":9.331852876948314,"areaPolygon":{"type":"Polygon","coordinates":[[[9.335973359689092,56.4006845729665],[9.335688818079053,56.40067104749654],[9.332668797611271,56.40067558950546],[9.332339003779365,56.400694901420415],[9.332023208619876,56.4007510438901],[9.322247489027344,56.403124450795495],[9.321925807114035,56.40322842881265],[9.320393477802218,56.403864898172756],[9.320128372806114,56.4040033648356],[9.319925738243743,56.40417116409812],[9.319795812130607,56.404359818707604],[9.315623151890946,56.413337834147185],[9.315572153790793,56.413578654410635],[9.315697170453252,56.417323928513746],[9.315737290719863,56.41750663853638],[9.315843746045923,56.41768098245533],[9.316012069223984,56.41783964282151],[9.316633534410345,56.41830794192929],[9.316808713015563,56.4184194171507],[9.31701450264121,56.418513460585814],[9.322163218808527,56.42049563146098],[9.322456429879955,56.42058517323566],[9.322776576140887,56.42063942312171],[9.323110002377515,56.420656067183884],[9.323442486826114,56.420634395497345],[9.323759847902599,56.4205753324343],[9.330786290549439,56.41880125057796],[9.331132174912677,56.418682855534264],[9.350404048305139,56.4100597058405],[9.350615367221646,56.40994605764954],[9.350786109234004,56.40981308929694],[9.351483333290334,56.40914986329713],[9.351626864359478,56.408970950489426],[9.35169706980507,56.40877904726431],[9.351690615855608,56.40858326937311],[9.351607810240482,56.408392916482036],[9.349365796150005,56.40494294611181],[9.349257358204019,56.4048107117219],[9.349111904574155,56.40468989497052],[9.34497479483661,56.40179141552497],[9.344771916229558,56.401673154852496],[9.344533801183092,56.401577198868424],[9.34426830860963,56.401506714477705],[9.343984200817523,56.40146402791317],[9.335973359689092,56.4006845729665]]]}}}
+{
+    "result": {
+        "slug": "2026-09-06-divisionsmatch",
+        "eventName": "Divisionsmatch",
+        "activityName": "Divisionsmatch",
+        "eventDate": "06/09/2026",
+        "eventLocation": "Hald Ege",
+        "eventOrganizer": "Viborg OK",
+        "championship": false,
+        "discipline": "Foot",
+        "eventType": "Division",
+        "comment": "",
+        "commentUrl": "",
+        "oTrackId": 16758,
+        "winSplitsId": 115221,
+        "categories": [
+            {
+                "name": "Begynder",
+                "slug": "begynder",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Jarno Falkø",
+                        "club": "OK Pan",
+                        "time": 1264,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Henning Vide Petersen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 2122,
+                        "timeBehind": 858,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Birte Hering Poulsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 2518,
+                        "timeBehind": 1254,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Bjørk Due Petersen",
+                        "club": "OK Pan",
+                        "time": 2662,
+                        "timeBehind": 1398,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "Storm Due Petersen",
+                        "club": "OK Pan",
+                        "time": 2663,
+                        "timeBehind": 1399,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 6,
+                        "name": "Gitte Mønster Jørgensen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3218,
+                        "timeBehind": 1954,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Ina Mouritsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "D-20B",
+                "slug": "d-20b",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Siv Borup Fredberg",
+                        "club": "Silkeborg OK",
+                        "time": 3939,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Olivia Rusbjerg",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 4623,
+                        "timeBehind": 684,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Anna Brinch-Lundgaard",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 5755,
+                        "timeBehind": 1816,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Alma Linnea Palmfeldt",
+                        "club": "OK Pan",
+                        "time": 6881,
+                        "timeBehind": 2942,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "Line Nyborg",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 7402,
+                        "timeBehind": 3463,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "D-20",
+                "slug": "d-20",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Signe Møller Skaug",
+                        "club": "OK Pan",
+                        "time": 4235,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Sina Gasser",
+                        "club": "Silkeborg OK",
+                        "time": 4897,
+                        "timeBehind": 662,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Mathilde Bobach",
+                        "club": "OK Pan",
+                        "time": 5204,
+                        "timeBehind": 969,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Ella Klærke Mikkelsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 6912,
+                        "timeBehind": 2677,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "D-10",
+                "slug": "d-10",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Vilde Dalgaard",
+                        "club": "Silkeborg OK",
+                        "time": 1480,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Iben Mogensen",
+                        "club": "Silkeborg OK",
+                        "time": 1491,
+                        "timeBehind": 11,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Josefine Lyndgård Bobach",
+                        "club": "Silkeborg OK",
+                        "time": 1527,
+                        "timeBehind": 47,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Ellen Aagaard Nielsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 1599,
+                        "timeBehind": 119,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "Ronja Meyer Falkø",
+                        "club": "OK Pan",
+                        "time": 2182,
+                        "timeBehind": 702,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 6,
+                        "name": "Karen Djurhuus",
+                        "club": "Silkeborg OK",
+                        "time": 2785,
+                        "timeBehind": 1305,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 7,
+                        "name": "Agnes Taudahl Søndergaard",
+                        "club": "Herning Orienteringsklub",
+                        "time": 2843,
+                        "timeBehind": 1363,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Nanna Rosenkilde Christensen",
+                        "club": "Silkeborg OK",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "D-12",
+                "slug": "d-12",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Ester Due Petersen",
+                        "club": "OK Pan",
+                        "time": 1815,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Josephine Vide Markussen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 1835,
+                        "timeBehind": 20,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Ronja Due Petersen",
+                        "club": "OK Pan",
+                        "time": 2237,
+                        "timeBehind": 422,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Mikkeline Overgaard Korsholm",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3021,
+                        "timeBehind": 1206,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "Ea Rusbjerg",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3226,
+                        "timeBehind": 1411,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Karen Andersen",
+                        "club": "Silkeborg OK",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "D-18",
+                "slug": "d-18",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Anna Kaldahl Hornbæk",
+                        "club": "OK Pan",
+                        "time": 4461,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Siv Kusk Berglund",
+                        "club": "OK Pan",
+                        "time": 5198,
+                        "timeBehind": 737,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Astrid Lykke Nielsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 5455,
+                        "timeBehind": 994,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "D-Let",
+                "slug": "d-let",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Line Hansen",
+                        "club": "Silkeborg OK",
+                        "time": 1913,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Line Knudsen",
+                        "club": "Skive AMOK",
+                        "time": 2107,
+                        "timeBehind": 194,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Karen Thygesen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 2499,
+                        "timeBehind": 586,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Lizette Pedersen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 2845,
+                        "timeBehind": 932,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "Lene Nedergaard Petersen",
+                        "club": "OK Pan",
+                        "time": 2942,
+                        "timeBehind": 1029,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 6,
+                        "name": "Stine Taudahl Søndergaard",
+                        "club": "Herning Orienteringsklub",
+                        "time": 3157,
+                        "timeBehind": 1244,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 7,
+                        "name": "Stefanie Palmfeldt",
+                        "club": "OK Pan",
+                        "time": 3200,
+                        "timeBehind": 1287,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 8,
+                        "name": "Diana Nyborg",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3339,
+                        "timeBehind": 1426,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 9,
+                        "name": "Erna Germann",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3723,
+                        "timeBehind": 1810,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 10,
+                        "name": "Inger Kongsgaard Jakobsen",
+                        "club": "Silkeborg OK",
+                        "time": 4125,
+                        "timeBehind": 2212,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Susanne Gasbjerg",
+                        "club": "Silkeborg OK",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "D-16",
+                "slug": "d-16",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Kille Beuchert",
+                        "club": "OK Pan",
+                        "time": 2922,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Sophia Birch Honore",
+                        "club": "Silkeborg OK",
+                        "time": 4564,
+                        "timeBehind": 1642,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Freja Toft Møller Mikkelsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 5733,
+                        "timeBehind": 2811,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "D-14",
+                "slug": "d-14",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Clara R. Christensen",
+                        "club": "Silkeborg OK",
+                        "time": 2919,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Ellen Andersen",
+                        "club": "Silkeborg OK",
+                        "time": 3269,
+                        "timeBehind": 350,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Thora Toft Møller Mikkelsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 6169,
+                        "timeBehind": 3250,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Lærke Skammelsen Gilleladen",
+                        "club": "OK Pan",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "D-14B",
+                "slug": "d-14b",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Luna Damsgaard Ravn",
+                        "club": "Silkeborg OK",
+                        "time": 2150,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Johanne Sundahl Jespersen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 2598,
+                        "timeBehind": 448,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Lærke Thorgaard Madsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 2966,
+                        "timeBehind": 816,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Marie Brinch-Lundgaard",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 2973,
+                        "timeBehind": 823,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "D21-",
+                "slug": "d21-",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Camilla Bevensee",
+                        "club": "OK Pan",
+                        "time": 4114,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Ane Linde",
+                        "club": "Silkeborg OK",
+                        "time": 4135,
+                        "timeBehind": 21,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Rikke Vide Markussen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 5000,
+                        "timeBehind": 886,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Theresa Skouboe",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 5145,
+                        "timeBehind": 1031,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "Anna Movin",
+                        "club": "Silkeborg OK",
+                        "time": 6298,
+                        "timeBehind": 2184,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 6,
+                        "name": "Rebeka Vincze",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 6522,
+                        "timeBehind": 2408,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 7,
+                        "name": "Anne Gammelmark Therkildsen",
+                        "club": "OK Pan",
+                        "time": 6745,
+                        "timeBehind": 2631,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 8,
+                        "name": "Kristina Bøge Meyhoff",
+                        "club": "Silkeborg OK",
+                        "time": 6767,
+                        "timeBehind": 2653,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Laura Kaldahl Hornbæk",
+                        "club": "OK Pan",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Alberte Karoline Thyssen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "D21B",
+                "slug": "d21b",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Margrethe Dalgaard",
+                        "club": "Silkeborg OK",
+                        "time": 3324,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Agnete Viuff",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3432,
+                        "timeBehind": 108,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Tine Kristensen",
+                        "club": "OK Pan",
+                        "time": 3597,
+                        "timeBehind": 273,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Susanne Hykkelbjerg Petersen",
+                        "club": "OK Pan",
+                        "time": 3788,
+                        "timeBehind": 464,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "Malene Aagaard Nielsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3984,
+                        "timeBehind": 660,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 6,
+                        "name": "Anne Meyer Knudsen",
+                        "club": "OK Pan",
+                        "time": 4115,
+                        "timeBehind": 791,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 7,
+                        "name": "Line Hvilsted Hansen",
+                        "club": "Silkeborg OK",
+                        "time": 4346,
+                        "timeBehind": 1022,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 8,
+                        "name": "Camilla Seest Lind",
+                        "club": "Silkeborg OK",
+                        "time": 4694,
+                        "timeBehind": 1370,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 9,
+                        "name": "Louise Brink Rasmussen",
+                        "club": "Herning Orienteringsklub",
+                        "time": 6098,
+                        "timeBehind": 2774,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Kirsten Almind Nielsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "D40",
+                "slug": "d40",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Rie Stenhøj Baun McGrail",
+                        "club": "Silkeborg OK",
+                        "time": 3299,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Stinne Skammelsen",
+                        "club": "OK Pan",
+                        "time": 4571,
+                        "timeBehind": 1272,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Mette Børsting Klenum",
+                        "club": "Silkeborg OK",
+                        "time": 4670,
+                        "timeBehind": 1371,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Gitte Lervad Lundø",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 5313,
+                        "timeBehind": 2014,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "Hanne Borup Fredberg",
+                        "club": "Silkeborg OK",
+                        "time": 5413,
+                        "timeBehind": 2114,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 6,
+                        "name": "Susanne Kristensen",
+                        "club": "Herning Orienteringsklub",
+                        "time": 6040,
+                        "timeBehind": 2741,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 7,
+                        "name": "Annette Kjeldsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 6154,
+                        "timeBehind": 2855,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 8,
+                        "name": "Bettina Toft Møller Mikkelsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 6240,
+                        "timeBehind": 2941,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 9,
+                        "name": "Tina Kronborg Vallentin",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 6941,
+                        "timeBehind": 3642,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "D45B",
+                "slug": "d45b",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Christina Hjøllund",
+                        "club": "Silkeborg OK",
+                        "time": 3499,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Dorte Grinderslev",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3649,
+                        "timeBehind": 150,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Lene Bang Jensen",
+                        "club": "Silkeborg OK",
+                        "time": 4116,
+                        "timeBehind": 617,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Anette Bagger Sørensen",
+                        "club": "Silkeborg OK",
+                        "time": 4211,
+                        "timeBehind": 712,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "Tove Jessen",
+                        "club": "Herning Orienteringsklub",
+                        "time": 4424,
+                        "timeBehind": 925,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 6,
+                        "name": "Rie Rusbjerg",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 6672,
+                        "timeBehind": 3173,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "D50",
+                "slug": "d50",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Rikke Holm",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 2906,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Heidi Hinge Krogsgaard",
+                        "club": "Silkeborg OK",
+                        "time": 3542,
+                        "timeBehind": 636,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Irene K. Mikkelsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3570,
+                        "timeBehind": 664,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Signe Faber",
+                        "club": "Silkeborg OK",
+                        "time": 3579,
+                        "timeBehind": 673,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "Elise Utzen Keller",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3667,
+                        "timeBehind": 761,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 6,
+                        "name": "Jeanette Finderup",
+                        "club": "OK Pan",
+                        "time": 4373,
+                        "timeBehind": 1467,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 7,
+                        "name": "Nina Jacobsen",
+                        "club": "Silkeborg OK",
+                        "time": 4492,
+                        "timeBehind": 1586,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 8,
+                        "name": "Mette Ellegaard Kokholm",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 5161,
+                        "timeBehind": 2255,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 9,
+                        "name": "Anette Pind",
+                        "club": "Silkeborg OK",
+                        "time": 5236,
+                        "timeBehind": 2330,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "D60",
+                "slug": "d60",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Lucia Aagaard",
+                        "club": "Herning Orienteringsklub",
+                        "time": 2483,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Britta Ank Pedersen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 2663,
+                        "timeBehind": 180,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Trine Ravn",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 2759,
+                        "timeBehind": 276,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Tove Jakobsen",
+                        "club": "Silkeborg OK",
+                        "time": 3154,
+                        "timeBehind": 671,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "Vibeke Jørgensen",
+                        "club": "OK Pan",
+                        "time": 3158,
+                        "timeBehind": 675,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 6,
+                        "name": "Susanne Høiberg",
+                        "club": "Silkeborg OK",
+                        "time": 3598,
+                        "timeBehind": 1115,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 7,
+                        "name": "Karen Sieg",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3611,
+                        "timeBehind": 1128,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 8,
+                        "name": "Lene Kofoed Petersen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3948,
+                        "timeBehind": 1465,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 9,
+                        "name": "Helle Klenum",
+                        "club": "Silkeborg OK",
+                        "time": 5402,
+                        "timeBehind": 2919,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "D70",
+                "slug": "d70",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Ingrid Johannsen",
+                        "club": "Silkeborg OK",
+                        "time": 2003,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Susanne Baun",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 2204,
+                        "timeBehind": 201,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Siri Økstad",
+                        "club": "Oddersjaa",
+                        "time": 2449,
+                        "timeBehind": 446,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Mona Nørgaard",
+                        "club": "OK Pan",
+                        "time": 2655,
+                        "timeBehind": 652,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "Tove Straarup",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 2822,
+                        "timeBehind": 819,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 6,
+                        "name": "Ann Dorrit Hansen",
+                        "club": "OK Djurs",
+                        "time": 3047,
+                        "timeBehind": 1044,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 7,
+                        "name": "Elin Holm Jensen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3088,
+                        "timeBehind": 1085,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 8,
+                        "name": "Vibeke Vogelius",
+                        "club": "Silkeborg OK",
+                        "time": 3240,
+                        "timeBehind": 1237,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 9,
+                        "name": "Anni Jensen",
+                        "club": "Herning Orienteringsklub",
+                        "time": 3519,
+                        "timeBehind": 1516,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 10,
+                        "name": "Anne-Mette Kirkegaard",
+                        "club": "Silkeborg OK",
+                        "time": 4291,
+                        "timeBehind": 2288,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "D80",
+                "slug": "d80",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Aase Thyssen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 4204,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Karen-Lisbeth Fredberg",
+                        "club": "Silkeborg OK",
+                        "time": 4275,
+                        "timeBehind": 71,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Kirsten Skovbjerg",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 6190,
+                        "timeBehind": 1986,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "H-Let",
+                "slug": "h-let",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Christian Markussen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 1534,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Johan Palmfeldt",
+                        "club": "OK Pan",
+                        "time": 1708,
+                        "timeBehind": 174,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Jesper Toft Møller Mikkelsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 1792,
+                        "timeBehind": 258,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Bjarne Lysdal",
+                        "club": "Silkeborg OK",
+                        "time": 2398,
+                        "timeBehind": 864,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "John Winther",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 2730,
+                        "timeBehind": 1196,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 6,
+                        "name": "Brian Thukær Madsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3015,
+                        "timeBehind": 1481,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 7,
+                        "name": "Mads Andreassen",
+                        "club": "Herning Orienteringsklub",
+                        "time": 3197,
+                        "timeBehind": 1663,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 8,
+                        "name": "Ulrik Christiansen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3204,
+                        "timeBehind": 1670,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "H10",
+                "slug": "h10",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Oliver Vide Markussen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 1039,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Einar Dalgaard",
+                        "club": "Silkeborg OK",
+                        "time": 1183,
+                        "timeBehind": 144,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Magnus Honore",
+                        "club": "Silkeborg OK",
+                        "time": 1257,
+                        "timeBehind": 218,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Bjørn Vestergaard Tandal",
+                        "club": "Skive AMOK",
+                        "time": 1338,
+                        "timeBehind": 299,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "Lucas Sloth Bobach",
+                        "club": "OK Pan",
+                        "time": 1381,
+                        "timeBehind": 342,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 6,
+                        "name": "Asger Sandegaard",
+                        "club": "OK Pan",
+                        "time": 1395,
+                        "timeBehind": 356,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 7,
+                        "name": "Mikkel Ove Jacobsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 1476,
+                        "timeBehind": 437,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 8,
+                        "name": "Aske Viuff",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 1738,
+                        "timeBehind": 699,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 9,
+                        "name": "Sigurd Refslund",
+                        "club": "OK Pan",
+                        "time": 1962,
+                        "timeBehind": 923,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 10,
+                        "name": "Alfred Taudal Søndergaard",
+                        "club": "Herning Orienteringsklub",
+                        "time": 2190,
+                        "timeBehind": 1151,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 11,
+                        "name": "Emil Djurhuus",
+                        "club": "Silkeborg OK",
+                        "time": 2790,
+                        "timeBehind": 1751,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 12,
+                        "name": "Malik Meyer Falkø",
+                        "club": "OK Pan",
+                        "time": 3210,
+                        "timeBehind": 2171,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "H12",
+                "slug": "h12",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Kirk Beuchert",
+                        "club": "OK Pan",
+                        "time": 1367,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Mathias Linde Lassen",
+                        "club": "Silkeborg OK",
+                        "time": 1673,
+                        "timeBehind": 306,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Malte Leander Palmfeldt",
+                        "club": "OK Pan",
+                        "time": 1715,
+                        "timeBehind": 348,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Maks Ove Jacobsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 2398,
+                        "timeBehind": 1031,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "Magne Birkelund Mouritsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 4721,
+                        "timeBehind": 3354,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Torbjørn Kjær Rasmussen",
+                        "club": "Silkeborg OK",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "H12B",
+                "slug": "h12b",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Bjørn Sander",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 1688,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Sebastian Linde Lassen",
+                        "club": "Silkeborg OK",
+                        "time": 2420,
+                        "timeBehind": 732,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Frederik Jacobsen Milicic",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3341,
+                        "timeBehind": 1653,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "H14",
+                "slug": "h14",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Esben Christensen",
+                        "club": "Silkeborg OK",
+                        "time": 2404,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Magnus Oscar Søes",
+                        "club": "Silkeborg OK",
+                        "time": 2562,
+                        "timeBehind": 158,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Robert Lervad Lundø",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 2828,
+                        "timeBehind": 424,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Richard Elias Kronborg Vallentin",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3338,
+                        "timeBehind": 934,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "Magne Halvor Obel",
+                        "club": "OK Pan",
+                        "time": 3527,
+                        "timeBehind": 1123,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "H14B",
+                "slug": "h14b",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Lea Thygesen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3361,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Rakel Christensen Rasch",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3392,
+                        "timeBehind": 31,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "H16",
+                "slug": "h16",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Esben Johan Obel",
+                        "club": "OK Pan",
+                        "time": 2740,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Jonas Klærke Mikkelsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 4650,
+                        "timeBehind": 1910,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Kristine Skouboe",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 5052,
+                        "timeBehind": 2312,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Lucas McGrail",
+                        "club": "Silkeborg OK",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "H18",
+                "slug": "h18",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Mattias Klostergaard Rokkjær",
+                        "club": "Silkeborg OK",
+                        "time": 3362,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Emil Borup Fredberg",
+                        "club": "Silkeborg OK",
+                        "time": 3515,
+                        "timeBehind": 153,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Eskild Stig Nielsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3694,
+                        "timeBehind": 332,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Karl-Bertil Skovkjær",
+                        "club": "Silkeborg OK",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "H20",
+                "slug": "h20",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Asbjørn Faber Fenger-Grøn",
+                        "club": "Silkeborg OK",
+                        "time": 3232,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Lukas Bergmann Verhelst",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3437,
+                        "timeBehind": 205,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "H20B",
+                "slug": "h20b",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "William Stenhøj Baun McGrail",
+                        "club": "Silkeborg OK",
+                        "time": 4186,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "H21",
+                "slug": "h21",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Laurits Bidstrup Møller",
+                        "club": "Silkeborg OK",
+                        "time": 2998,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Søren Bobach",
+                        "club": "OK Pan",
+                        "time": 3064,
+                        "timeBehind": 66,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Tue Lassen",
+                        "club": "Silkeborg OK",
+                        "time": 3070,
+                        "timeBehind": 72,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Oscar Sig Tranberg",
+                        "club": "OK Pan",
+                        "time": 3134,
+                        "timeBehind": 136,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "Elias Hinge Krogsgaard",
+                        "club": "Silkeborg OK",
+                        "time": 3205,
+                        "timeBehind": 207,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 6,
+                        "name": "Rasmus Djurhuus",
+                        "club": "OK Pan",
+                        "time": 3400,
+                        "timeBehind": 402,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 7,
+                        "name": "Morten Fenger-Grøn",
+                        "club": "Silkeborg OK",
+                        "time": 3477,
+                        "timeBehind": 479,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 8,
+                        "name": "Mátyás Péntek",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 4035,
+                        "timeBehind": 1037,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 9,
+                        "name": "Mikkel Holm Nielsen",
+                        "club": "OK Pan",
+                        "time": 4252,
+                        "timeBehind": 1254,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 10,
+                        "name": "Rasmus Holm Andersen",
+                        "club": "Silkeborg OK",
+                        "time": 4427,
+                        "timeBehind": 1429,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 11,
+                        "name": "Stefan Keller",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 4937,
+                        "timeBehind": 1939,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 12,
+                        "name": "Thomas Emil Jensen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 5012,
+                        "timeBehind": 2014,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 13,
+                        "name": "Astrid Gylling Hougaard",
+                        "club": "Aarhus 1900 Orientering",
+                        "time": 5477,
+                        "timeBehind": 2479,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 14,
+                        "name": "Bjørn Garsdal",
+                        "club": "Herning Orienteringsklub",
+                        "time": 6053,
+                        "timeBehind": 3055,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 15,
+                        "name": "Benjamin Andreas Brunbjerg Nielsen",
+                        "club": "Aarhus 1900 Orientering",
+                        "time": 6218,
+                        "timeBehind": 3220,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 16,
+                        "name": "Brian Aagaard Nielsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 6349,
+                        "timeBehind": 3351,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 17,
+                        "name": "Allan Hougaard",
+                        "club": "Aarhus 1900 Orientering",
+                        "time": 6360,
+                        "timeBehind": 3362,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 18,
+                        "name": "Kenn Heldgaard Kristensen",
+                        "club": "Herning Orienteringsklub",
+                        "time": 6458,
+                        "timeBehind": 3460,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "H21B",
+                "slug": "h21b",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Kasper Bøgh-Lauridsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3361,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Tyge Kjær Rasmussen",
+                        "club": "Silkeborg OK",
+                        "time": 3545,
+                        "timeBehind": 184,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Tommy Jakobsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3921,
+                        "timeBehind": 560,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Thomas Hornbæk",
+                        "club": "OK Pan",
+                        "time": 4054,
+                        "timeBehind": 693,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "Dmitriy Artamonov",
+                        "club": "Mariager Fjord OK",
+                        "time": 5176,
+                        "timeBehind": 1815,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Søren Seest",
+                        "club": "Silkeborg OK",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "H40",
+                "slug": "h40",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "René Rokkjær",
+                        "club": "Silkeborg OK",
+                        "time": 3293,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Morten Pedersen",
+                        "club": "OK Pan",
+                        "time": 4333,
+                        "timeBehind": 1040,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Christian Christensen",
+                        "club": "Silkeborg OK",
+                        "time": 4477,
+                        "timeBehind": 1184,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Ole Lind",
+                        "club": "Ballerup OK",
+                        "time": 4515,
+                        "timeBehind": 1222,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "Peter Lindberg Thomadsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 4791,
+                        "timeBehind": 1498,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 6,
+                        "name": "Esben Dalgaard",
+                        "club": "Silkeborg OK",
+                        "time": 4897,
+                        "timeBehind": 1604,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 7,
+                        "name": "Jens Peder Jørgensen",
+                        "club": "Herning Orienteringsklub",
+                        "time": 5731,
+                        "timeBehind": 2438,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 8,
+                        "name": "Mads Mikkelsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 5832,
+                        "timeBehind": 2539,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 9,
+                        "name": "Søren Rusbjerg",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 7137,
+                        "timeBehind": 3844,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 10,
+                        "name": "Kim Birkelund",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 8087,
+                        "timeBehind": 4794,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Lasse Due Petersen",
+                        "club": "OK Pan",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Morten Obel",
+                        "club": "OK Pan",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "H45B",
+                "slug": "h45b",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Michael Jensen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3097,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Thomas Nielsen",
+                        "club": "Silkeborg OK",
+                        "time": 3253,
+                        "timeBehind": 156,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Claus Gammelmark Therkildsen",
+                        "club": "OK Pan",
+                        "time": 3611,
+                        "timeBehind": 514,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Uffe Weiglin",
+                        "club": "Herning Orienteringsklub",
+                        "time": 3996,
+                        "timeBehind": 899,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "Thomas Herbert Kokholm",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3999,
+                        "timeBehind": 902,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 6,
+                        "name": "Peter Kilden Jensen",
+                        "club": "OK Pan",
+                        "time": 5002,
+                        "timeBehind": 1905,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 7,
+                        "name": "Jørgen Jørgensen",
+                        "club": "Silkeborg OK",
+                        "time": 5111,
+                        "timeBehind": 2014,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 8,
+                        "name": "Henning Mindstruplund",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 5206,
+                        "timeBehind": 2109,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 9,
+                        "name": "Dennis Lindeberg Hansen",
+                        "club": "Silkeborg OK",
+                        "time": 5476,
+                        "timeBehind": 2379,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 10,
+                        "name": "Michael Arne Jensen",
+                        "club": "Silkeborg OK",
+                        "time": 5506,
+                        "timeBehind": 2409,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 11,
+                        "name": "Erik Skjøth Sørensen",
+                        "club": "Silkeborg OK",
+                        "time": 6164,
+                        "timeBehind": 3067,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 12,
+                        "name": "Thomas Nikolajsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 8062,
+                        "timeBehind": 4965,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Erik Brixen",
+                        "club": "Herning Orienteringsklub",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "H50",
+                "slug": "h50",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Thomas Fredberg",
+                        "club": "Silkeborg OK",
+                        "time": 2637,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Patrick McGrail",
+                        "club": "Silkeborg OK",
+                        "time": 2691,
+                        "timeBehind": 54,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Keld Hinge Krogsgaard",
+                        "club": "Silkeborg OK",
+                        "time": 3091,
+                        "timeBehind": 454,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Carsten Thyssen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3145,
+                        "timeBehind": 508,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "Ebbe Møller Nielsen",
+                        "club": "OK Pan",
+                        "time": 3161,
+                        "timeBehind": 524,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 6,
+                        "name": "Kell Sønnichsen",
+                        "club": "OK Pan",
+                        "time": 3275,
+                        "timeBehind": 638,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 7,
+                        "name": "Troels Nielsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3392,
+                        "timeBehind": 755,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 8,
+                        "name": "Nicolaj Nielsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3547,
+                        "timeBehind": 910,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 9,
+                        "name": "Henrik Blakskjær",
+                        "club": "OK Pan",
+                        "time": 3905,
+                        "timeBehind": 1268,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 10,
+                        "name": "Per Mønster Jørgensen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 4315,
+                        "timeBehind": 1678,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 11,
+                        "name": "Allan Thesbjerg",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 4500,
+                        "timeBehind": 1863,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 12,
+                        "name": "Jonas Persson",
+                        "club": "Silkeborg OK",
+                        "time": 4556,
+                        "timeBehind": 1919,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 13,
+                        "name": "Jørn Riis",
+                        "club": "OK Pan",
+                        "time": 4722,
+                        "timeBehind": 2085,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 14,
+                        "name": "Peter Feilberg Schjødt",
+                        "club": "OK Pan",
+                        "time": 6016,
+                        "timeBehind": 3379,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Lasse Madsen",
+                        "club": "Mariager Fjord OK",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "H60",
+                "slug": "h60",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Kent Kragh",
+                        "club": "OK Pan",
+                        "time": 2284,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Morten Kjær",
+                        "club": "Silkeborg OK",
+                        "time": 2717,
+                        "timeBehind": 433,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Kent Lodberg",
+                        "club": "OK Pan",
+                        "time": 2989,
+                        "timeBehind": 705,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Jens Børsting Klenum",
+                        "club": "Silkeborg OK",
+                        "time": 3250,
+                        "timeBehind": 966,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "Torben Kragh",
+                        "club": "OK Pan",
+                        "time": 3339,
+                        "timeBehind": 1055,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 6,
+                        "name": "Jens Ozol",
+                        "club": "Silkeborg OK",
+                        "time": 3340,
+                        "timeBehind": 1056,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 7,
+                        "name": "Mogens Hagner",
+                        "club": "Silkeborg OK",
+                        "time": 3553,
+                        "timeBehind": 1269,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 8,
+                        "name": "Anker Møller",
+                        "club": "Silkeborg OK",
+                        "time": 3633,
+                        "timeBehind": 1349,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 9,
+                        "name": "Morten Christensen",
+                        "club": "Herning Orienteringsklub",
+                        "time": 3718,
+                        "timeBehind": 1434,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 10,
+                        "name": "Michael Straube",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 4271,
+                        "timeBehind": 1987,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 11,
+                        "name": "Frank Krog Jensen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 4299,
+                        "timeBehind": 2015,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 12,
+                        "name": "Leif Rønn Olsen",
+                        "club": "Herning Orienteringsklub",
+                        "time": 4638,
+                        "timeBehind": 2354,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 13,
+                        "name": "Claus Etzerodt",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 4974,
+                        "timeBehind": 2690,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 14,
+                        "name": "Søren Søgaard Nielsen",
+                        "club": "Herning Orienteringsklub",
+                        "time": 5211,
+                        "timeBehind": 2927,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 15,
+                        "name": "Carsten Bai",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 5873,
+                        "timeBehind": 3589,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 16,
+                        "name": "Carsten Lind Clemmensen",
+                        "club": "Rold Skov OK",
+                        "time": 7588,
+                        "timeBehind": 5304,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Jan Thomsen",
+                        "club": "OK Pan",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Erik Bobach",
+                        "club": "Silkeborg OK",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Hans Jørgen Vad",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "H70",
+                "slug": "h70",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Per Torgersen",
+                        "club": "Oddersjaa",
+                        "time": 1940,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Jørgen Münster-Swendsen",
+                        "club": "Silkeborg OK",
+                        "time": 2396,
+                        "timeBehind": 456,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Kaj Kaspersen",
+                        "club": "Herning Orienteringsklub",
+                        "time": 2631,
+                        "timeBehind": 691,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Jens Jørgen Jensen",
+                        "club": "Herning Orienteringsklub",
+                        "time": 2731,
+                        "timeBehind": 791,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "Knud Fjordvald",
+                        "club": "Silkeborg OK",
+                        "time": 2790,
+                        "timeBehind": 850,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 6,
+                        "name": "Peer Straarup",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 2799,
+                        "timeBehind": 859,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 7,
+                        "name": "Flemming Johannsen",
+                        "club": "Silkeborg OK",
+                        "time": 2986,
+                        "timeBehind": 1046,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 8,
+                        "name": "Henning Overgaard",
+                        "club": "OK Pan",
+                        "time": 3315,
+                        "timeBehind": 1375,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 9,
+                        "name": "Eigil Nielsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3332,
+                        "timeBehind": 1392,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 10,
+                        "name": "Niels Bobach",
+                        "club": "Aalborg Orienteringsklub",
+                        "time": 3395,
+                        "timeBehind": 1455,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 11,
+                        "name": "Ulrik Mathiasen",
+                        "club": "Silkeborg OK",
+                        "time": 3571,
+                        "timeBehind": 1631,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 12,
+                        "name": "Poul Erik Christensen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3605,
+                        "timeBehind": 1665,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 13,
+                        "name": "Ivan Christensen",
+                        "club": "OK Pan",
+                        "time": 3613,
+                        "timeBehind": 1673,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 14,
+                        "name": "Troels Jensen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3713,
+                        "timeBehind": 1773,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 15,
+                        "name": "Poul Egander Grøn",
+                        "club": "Silkeborg OK",
+                        "time": 3751,
+                        "timeBehind": 1811,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 16,
+                        "name": "Carl Malling",
+                        "club": "Randers OK",
+                        "time": 3796,
+                        "timeBehind": 1856,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 17,
+                        "name": "Peter Trier",
+                        "club": "OK Pan",
+                        "time": 3803,
+                        "timeBehind": 1863,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 18,
+                        "name": "Christian Gottlieb-Petersen",
+                        "club": "OK Pan",
+                        "time": 4029,
+                        "timeBehind": 2089,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 19,
+                        "name": "Frank Linde",
+                        "club": "OK Pan",
+                        "time": 4381,
+                        "timeBehind": 2441,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 20,
+                        "name": "Gunnar Gjermandsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 4544,
+                        "timeBehind": 2604,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 21,
+                        "name": "Ole Thy",
+                        "club": "Rold Skov OK",
+                        "time": 5464,
+                        "timeBehind": 3524,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Jørn Egeberg",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Finn Simensen",
+                        "club": "OK Pan",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "H80",
+                "slug": "h80",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Max Hansen",
+                        "club": "OK Djurs",
+                        "time": 2062,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Claus Faber",
+                        "club": "Silkeborg OK",
+                        "time": 2187,
+                        "timeBehind": 125,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Poul Nøhr",
+                        "club": "Silkeborg OK",
+                        "time": 2385,
+                        "timeBehind": 323,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 4,
+                        "name": "Flemming Nørgaard",
+                        "club": "OK Pan",
+                        "time": 2466,
+                        "timeBehind": 404,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 5,
+                        "name": "Torben Jørgensen",
+                        "club": "Silkeborg OK",
+                        "time": 2663,
+                        "timeBehind": 601,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 6,
+                        "name": "Knud Sørensen",
+                        "club": "OK Pan",
+                        "time": 3064,
+                        "timeBehind": 1002,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 7,
+                        "name": "Jørgen Thyssen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3085,
+                        "timeBehind": 1023,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 8,
+                        "name": "Asger Kristensen",
+                        "club": "Herning Orienteringsklub",
+                        "time": 3447,
+                        "timeBehind": 1385,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 9,
+                        "name": "Jørgen Jensen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 5179,
+                        "timeBehind": 3117,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Lars Ole Larsen",
+                        "club": "Silkeborg OK",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Erik Anders Jensen",
+                        "club": "Silkeborg OK",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "Åben 1",
+                "slug": "aaben-1",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Isak Riis Persson",
+                        "club": "OK Pan",
+                        "time": 4023,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Lukas Ulriksen",
+                        "club": "Dansk Orienterings-Forbund",
+                        "time": 5771,
+                        "timeBehind": 1748,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 0,
+                        "name": "Anders Munch",
+                        "club": "Viborg OK",
+                        "time": 0,
+                        "timeBehind": 0,
+                        "status": "Disqualified"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "Åben 2",
+                "slug": "aaben-2",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Maria Halberg",
+                        "club": "Dansk Orienterings-Forbund",
+                        "time": 5193,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "Åben 4",
+                "slug": "aaben-4",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Tomas Torgersen",
+                        "club": "Oddersjaa",
+                        "time": 3360,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Holger Refslund",
+                        "club": "Dansk Orienterings-Forbund",
+                        "time": 3870,
+                        "timeBehind": 510,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Carsten Helligsø",
+                        "club": "Karup OK",
+                        "time": 4313,
+                        "timeBehind": 953,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "Åben 5",
+                "slug": "aaben-5",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Søren Munthe",
+                        "club": "Mariager Fjord OK",
+                        "time": 2649,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Troels Munthe",
+                        "club": "Mariager Fjord OK",
+                        "time": 4047,
+                        "timeBehind": 1398,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 3,
+                        "name": "Helmuth Poul Hilden",
+                        "club": "Rold Skov OK",
+                        "time": 5251,
+                        "timeBehind": 2602,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "Åben 6",
+                "slug": "aaben-6",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Steen Larsen-Veddel",
+                        "club": "OK Pan",
+                        "time": 2389,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Inge Løvig",
+                        "club": "Skive AMOK",
+                        "time": 2629,
+                        "timeBehind": 240,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "Åben 8",
+                "slug": "aaben-8",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Roar Amundsen",
+                        "club": "Horsens Orienteringsklub",
+                        "time": 3945,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            },
+            {
+                "name": "Åben 9",
+                "slug": "aaben-9",
+                "isRelay": false,
+                "individualResults": [
+                    {
+                        "position": 1,
+                        "name": "Mille Mathilde Hvilsted Hansen",
+                        "club": "Silkeborg OK",
+                        "time": 1811,
+                        "timeBehind": 0,
+                        "status": "Ok"
+                    },
+                    {
+                        "position": 2,
+                        "name": "Astrid Vangsgaard",
+                        "club": "Rold Skov OK",
+                        "time": 1962,
+                        "timeBehind": 151,
+                        "status": "Ok"
+                    }
+                ],
+                "teamResults": []
+            }
+        ],
+        "relatedEvents": [],
+        "centerLatitude": 56.40985570756894,
+        "centerLongitude": 9.331852876948314,
+        "areaPolygon": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        9.335973359689092,
+                        56.4006845729665
+                    ],
+                    [
+                        9.335688818079053,
+                        56.40067104749654
+                    ],
+                    [
+                        9.332668797611271,
+                        56.40067558950546
+                    ],
+                    [
+                        9.332339003779365,
+                        56.400694901420415
+                    ],
+                    [
+                        9.332023208619876,
+                        56.4007510438901
+                    ],
+                    [
+                        9.322247489027344,
+                        56.403124450795495
+                    ],
+                    [
+                        9.321925807114035,
+                        56.40322842881265
+                    ],
+                    [
+                        9.320393477802218,
+                        56.403864898172756
+                    ],
+                    [
+                        9.320128372806114,
+                        56.4040033648356
+                    ],
+                    [
+                        9.319925738243743,
+                        56.40417116409812
+                    ],
+                    [
+                        9.319795812130607,
+                        56.404359818707604
+                    ],
+                    [
+                        9.315623151890946,
+                        56.413337834147185
+                    ],
+                    [
+                        9.315572153790793,
+                        56.413578654410635
+                    ],
+                    [
+                        9.315697170453252,
+                        56.417323928513746
+                    ],
+                    [
+                        9.315737290719863,
+                        56.41750663853638
+                    ],
+                    [
+                        9.315843746045923,
+                        56.41768098245533
+                    ],
+                    [
+                        9.316012069223984,
+                        56.41783964282151
+                    ],
+                    [
+                        9.316633534410345,
+                        56.41830794192929
+                    ],
+                    [
+                        9.316808713015563,
+                        56.4184194171507
+                    ],
+                    [
+                        9.31701450264121,
+                        56.418513460585814
+                    ],
+                    [
+                        9.322163218808527,
+                        56.42049563146098
+                    ],
+                    [
+                        9.322456429879955,
+                        56.42058517323566
+                    ],
+                    [
+                        9.322776576140887,
+                        56.42063942312171
+                    ],
+                    [
+                        9.323110002377515,
+                        56.420656067183884
+                    ],
+                    [
+                        9.323442486826114,
+                        56.420634395497345
+                    ],
+                    [
+                        9.323759847902599,
+                        56.4205753324343
+                    ],
+                    [
+                        9.330786290549439,
+                        56.41880125057796
+                    ],
+                    [
+                        9.331132174912677,
+                        56.418682855534264
+                    ],
+                    [
+                        9.350404048305139,
+                        56.4100597058405
+                    ],
+                    [
+                        9.350615367221646,
+                        56.40994605764954
+                    ],
+                    [
+                        9.350786109234004,
+                        56.40981308929694
+                    ],
+                    [
+                        9.351483333290334,
+                        56.40914986329713
+                    ],
+                    [
+                        9.351626864359478,
+                        56.408970950489426
+                    ],
+                    [
+                        9.35169706980507,
+                        56.40877904726431
+                    ],
+                    [
+                        9.351690615855608,
+                        56.40858326937311
+                    ],
+                    [
+                        9.351607810240482,
+                        56.408392916482036
+                    ],
+                    [
+                        9.349365796150005,
+                        56.40494294611181
+                    ],
+                    [
+                        9.349257358204019,
+                        56.4048107117219
+                    ],
+                    [
+                        9.349111904574155,
+                        56.40468989497052
+                    ],
+                    [
+                        9.34497479483661,
+                        56.40179141552497
+                    ],
+                    [
+                        9.344771916229558,
+                        56.401673154852496
+                    ],
+                    [
+                        9.344533801183092,
+                        56.401577198868424
+                    ],
+                    [
+                        9.34426830860963,
+                        56.401506714477705
+                    ],
+                    [
+                        9.343984200817523,
+                        56.40146402791317
+                    ],
+                    [
+                        9.335973359689092,
+                        56.4006845729665
+                    ]
+                ]
+            ]
+        }
+    }
+}

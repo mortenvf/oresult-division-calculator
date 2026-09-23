@@ -1,5 +1,34 @@
 
 
+async function getData() {
+  const url = "results/2026-09-06-divisionsmatch.json";
+  try {
+    const response = await fetch(url, {
+        method: "GET",
+        headers: {'access-control-request-headers': 'content-type', origin: null}
+    });
+    if (!response.ok) {
+      throw new Error(`Response status: ${response.status}`);
+    }
+
+    const result = await response.json();
+    console.log(result);
+  } catch (error) {
+    console.error(error.message);
+  }
+}
+
+async function fetchResults(slug) {
+    return fetch(`results/${slug}.json`, { method: "GET" })
+    .then((response) => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }  
+        return response.json();
+  });
+}
+
+
 const racePointFunction = function(rankPointsArray)
 {
     let fn = rank => (rank < rankPointsArray.length) ? rankPointsArray[rank] : 0;
@@ -117,14 +146,11 @@ const divisions = [
 
 const mSep = "&ndash;";
 
-function makeTable() {
+function makeTable(tbody, clubs, result) {
     
-
-
-    const r = divisions.map(clubs => roundRobin(clubs).map(c => computeMatchResult(c, result)));
+    const r = roundRobin(clubs).map(c => computeMatchResult(c, result));
     console.log(r);
     
-    const tbody = document.querySelector("#mytable>tbody");
     const statusRender = p => (p.status == "Ok") ? "" : ` (${p.status}) `;
     const pointRender = p => (p.status == "Ok") ? `${p.racePoints}` : "";
 
@@ -147,6 +173,24 @@ function makeTable() {
         }
     };
 
-    r.forEach(r => appendToTableBody(tbody, r));
+    appendToTableBody(tbody, r);
 
 }
+
+
+const main = function() {
+
+    fetchResults("2026-09-06-divisionsmatch").then(results => {
+        console.log(results);
+        makeTable(document.querySelector("#mytable1>tbody"), divisions[0], results.result)
+    });
+
+    fetchResults("2026-08-30-aabne-klasser").then(results => {
+        console.log(results);
+        makeTable(document.querySelector("#mytable2>tbody"), divisions[1], results.result)
+        makeTable(document.querySelector("#mytable3>tbody"), divisions[2], results.result)
+    });
+
+
+}
+
