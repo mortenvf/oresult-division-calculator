@@ -100,7 +100,7 @@ const findCategory = function(catArray, name) {
     return catArray.find(c => c.name == name) || { name: name, individualResults: [] };
 };
 
-
+//Compute match points from race point results.
 const computeMatchPoints = function(matchRacePoints) {
 
     const x = Object.entries(matchRacePoints).reduce(
@@ -148,6 +148,7 @@ const computeMatchResult = function(matchClubs, oResults) {
     };
 
     r.matchPoints = computeMatchPoints(matchRacePoints);
+
     return r;
 };
 
@@ -171,6 +172,17 @@ const mSep = "&ndash;";
 function makeTable(tbody, clubs, result) {
     
     const r = roundRobin(clubs).map(c => computeMatchResult(c, result));
+
+    r.racePoints = clubs.reduce( (a, v) => {a[v] = 0; return a; }, {});
+    r.matchPoints = clubs.reduce( (a, v) => {a[v] = 0; return a; }, {});
+    r.forEach(
+        m => {
+            m.clubs.forEach(c => {
+                r.racePoints[c] += m.racePoints[c];
+                r.matchPoints[c] += m.matchPoints[c];
+            });
+        });
+
     console.log(r);
     
     const statusRender = p => (p.status == "Ok") ? "" : ` (${p.status}) `;
