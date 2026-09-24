@@ -32,6 +32,7 @@ async function fetchResults(slug) {
 const racePointFunction = function(rankPointsArray)
 {
     let fn = rank => (rank < rankPointsArray.length) ? rankPointsArray[rank] : 0;
+    fn.rankPointsArray = rankPointsArray;
     fn.count = rankPointsArray.length;
     return fn;
 };
@@ -39,14 +40,14 @@ const racePointFunction = function(rankPointsArray)
 
 const racePointFunctions = {
 
-    "D10": racePointFunction([1,1,1,1,1,1]), //racePointCapFunction(3), // capped at 3 per team
-    "H10": racePointFunction([1,1,1,1,1,1]), // capped at 3 per team
+    "D10": racePointFunction([1,1,1,1,1,1]),
+    "H10": racePointFunction([1,1,1,1,1,1]),
 
     "D12": racePointFunction([4,3,2,1]),
     "H12": racePointFunction([4,3,2,1]),
 
-    "D12B": racePointFunction([1,1,1,1,1,1]), // capped at 3 per team
-    "H12B": racePointFunction([1,1,1,1,1,1]), // capped at 3 per team
+    "D12B": racePointFunction([1,1,1,1,1,1]), 
+    "H12B": racePointFunction([1,1,1,1,1,1]),
 
     "D14": racePointFunction([4,3,2,1]),
     "H14": racePointFunction([4,3,2,1]),
@@ -99,6 +100,25 @@ const findCategory = function(catArray, name) {
     return catArray.find(c => c.name == name) || { name: name, individualResults: [] };
 };
 
+
+const computeMatchPoints = function(matchRacePoints) {
+
+    const x = Object.entries(matchRacePoints).reduce(
+        (a, c) => {
+            if (c[1] > a.racePoints) { return {clubs: [c[0]], racePoints: c[1]}; }
+            else if (c[1] == a.racePoints) { a.clubs.push(c[0]); a.racePoints++; }
+            return a;
+        },
+        { clubs: [], racePoints: 0 }
+    );
+
+    return Object.keys(matchRacePoints).reduce( (a, c) => {
+        a[c] = x.clubs.includes(c) ? 2 / x.clubs.length : 0;
+        return a;
+    }, {});
+
+}
+
 const computeMatchResult = function(matchClubs, oResults) {
     let matchRacePoints = matchClubs.reduce( (a, v) => {a[v] = 0; return a; }, {});
     let r = {
@@ -122,10 +142,12 @@ const computeMatchResult = function(matchClubs, oResults) {
                             categoryRacePoints[r.club].racePoints += rp;
                             return { __proto__: r, racePoints: rp };
                         });
-                    Object.entries(categoryRacePoints).forEach(kv => matchRacePoints[kv[0]] += kv[1].racePoints);
+                    Object.entries(categoryRacePoints).forEach(kv => { matchRacePoints[kv[0]] += kv[1].racePoints; });
                     return {__proto__: c, matchResults: mr, racePoints: categoryRacePoints};
                 })
     };
+
+    r.matchPoints = computeMatchPoints(matchRacePoints);
     return r;
 };
 
@@ -159,6 +181,7 @@ function makeTable(tbody, clubs, result) {
         for (var m of r) {
             const [c0, c1] = m.clubs;
             tbody.insertAdjacentHTML("beforeend", `<tr class="matchHeader"><td>${c0}</td><td>${m.racePoints[c0]}</td><td>${mSep}</td><td>${m.racePoints[c1]}<td>${c1}</td></tr>`);
+            tbody.insertAdjacentHTML("beforeend", `<tr class="matchHeader"><td /><td>${m.matchPoints[c0]}</td><td>${mSep}</td><td>${m.matchPoints[c1]}<td /></tr>`);
             for (var c of m.categories) {
                 tbody.insertAdjacentHTML("beforeend", `<tr class="catHeader"><td>${c.name}</td><td>${c.racePoints[c0].racePoints}</td><td>${mSep}</td><td>${c.racePoints[c1].racePoints}<td>${c.name}</td></tr>`);
                 for (var p of c.matchResults) {
