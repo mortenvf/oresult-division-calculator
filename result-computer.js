@@ -125,7 +125,7 @@ const computeMatchResult = function(matchClubs, oResults) {
         clubs: matchClubs,
         racePoints: matchRacePoints,
         categories: Object.keys(racePointFunctions)
-                .map(k => findCategory(oResults.categories, k))
+                .map(categoryName => findCategory(oResults.categories, categoryName))
                 .map(c => {
                     let rpFn = racePointFunctions[c.name];
                     let categoryRacePoints = matchClubs.reduce( (a, c) => {a[c] = { racePoints: 0, count: 0 } ; return a; }, {});
@@ -153,26 +153,20 @@ const computeMatchResult = function(matchClubs, oResults) {
 };
 
 
+// Compute all round robin tournament combinations of the given clubs.
 const roundRobin = function(clubs) {
     return clubs.flatMap(
         (v, i) => clubs.slice(i+1).map( w => [v, w] )
     );
 };
 
-const divisions = [
-    [ "Silkeborg OK", "Horsens Orienteringsklub", "OK Pan", "Herning Orienteringsklub" ],
-    [ "Aalborg Orienteringsklub", "Mariager Fjord OK", "OK Vendelboerne", "Aarhus 1900 Orientering" ],
-    [ "Viborg OK", "KaSki OK", "Randers/Djurs OK", "Nordvest OK", "Rold Skov", "Vestjysk Orienteringsklub" ]
-];
 
+// Compute all pairwise match results for the given clubs.
+const computeDivisionResult = function(clubs, oResult) {
 
+    const r = roundRobin(clubs).map(c => computeMatchResult(c, oResult));
 
-const mSep = "&ndash;";
-
-function makeTable(tbody, clubs, result) {
-    
-    const r = roundRobin(clubs).map(c => computeMatchResult(c, result));
-
+    r.clubs = clubs;
     r.racePoints = clubs.reduce( (a, v) => {a[v] = 0; return a; }, {});
     r.matchPoints = clubs.reduce( (a, v) => {a[v] = 0; return a; }, {});
     r.forEach(
@@ -181,11 +175,31 @@ function makeTable(tbody, clubs, result) {
                 r.racePoints[c] += m.racePoints[c];
                 r.matchPoints[c] += m.matchPoints[c];
             });
-        });
+        }
+    );
 
+    return r;
+
+}
+
+
+
+const fmtTime = function(secs) {
+     const s = secs % 60;
+     const minutes = (secs - s) / 60;
+     const m = minutes % 60;
+     const h = (minutes - m) / 60;
+     return `${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+}
+
+
+
+function makeTable(tbody, r) {
+    
+    const mSep = "&ndash;";
     console.log(r);
     
-    const statusRender = p => (p.status == "Ok") ? "" : ` (${p.status}) `;
+    const statusRender = p => (p.status == "Ok") ? ` (${fmtTime(p.time)}) ` : ` (${p.status}) `;
     const pointRender = p => (p.status == "Ok") ? `${p.racePoints}` : "";
 
     const appendToTableBody = function(tbody, r){
@@ -213,17 +227,27 @@ function makeTable(tbody, clubs, result) {
 }
 
 
+const divisions = [
+    [ "Silkeborg OK", "Horsens Orienteringsklub", "OK Pan", "Herning Orienteringsklub" ],
+    [ "Aalborg Orienteringsklub", "Mariager Fjord OK", "OK Vendelboerne", "Aarhus 1900 Orientering" ],
+    [ "Viborg OK", "KaSki OK", "Randers/Djurs OK", "Nordvest OK", "Rold Skov", "Vestjysk Orienteringsklub" ]
+];
+
+
 const main = function() {
 
     fetchResults("2026-09-06-divisionsmatch").then(results => {
-        console.log(results);
-        makeTable(document.querySelector("#mytable1>tbody"), divisions[0], results.result)
+        const r0 = computeDivisionResult(divisions[0], results.result);
+        makeTable(document.querySelector("#mytable1>tbody"), r0)
     });
 
     fetchResults("2026-08-30-aabne-klasser").then(results => {
-        console.log(results);
-        makeTable(document.querySelector("#mytable2>tbody"), divisions[1], results.result)
-        makeTable(document.querySelector("#mytable3>tbody"), divisions[2], results.result)
+
+        const r1 = computeDivisionResult(divisions[1], results.result);
+        makeTable(document.querySelector("#mytable2>tbody"), r1)
+
+        const r2 = computeDivisionResult(divisions[2], results.result);
+        makeTable(document.querySelector("#mytable3>tbody"), r2)
     });
 
 
