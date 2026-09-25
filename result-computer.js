@@ -236,18 +236,28 @@ const divisions = [
 
 const main = function() {
 
+    fetchResults("2026-05-10-1division-2division-3division").then(results => {
+        const r0 = computeDivisionResult(divisions[0], results.result);
+        makeTable(document.querySelector("#rnd1div1>tbody"), r0)
+        const r1 = computeDivisionResult(divisions[1], results.result);
+        makeTable(document.querySelector("#rnd1div2>tbody"), r1)
+        const r2 = computeDivisionResult(divisions[2], results.result);
+        makeTable(document.querySelector("#rnd1div3>tbody"), r2)
+    });
+
+
     fetchResults("2026-09-06-divisionsmatch").then(results => {
         const r0 = computeDivisionResult(divisions[0], results.result);
-        makeTable(document.querySelector("#mytable1>tbody"), r0)
+        makeTable(document.querySelector("#rnd2div1>tbody"), r0)
     });
 
     fetchResults("2026-08-30-aabne-klasser").then(results => {
 
         const r1 = computeDivisionResult(divisions[1], results.result);
-        makeTable(document.querySelector("#mytable2>tbody"), r1)
+        makeTable(document.querySelector("#rnd2div2>tbody"), r1)
 
         const r2 = computeDivisionResult(divisions[2], results.result);
-        makeTable(document.querySelector("#mytable3>tbody"), r2)
+        makeTable(document.querySelector("#rnd2div3>tbody"), r2)
     });
 
 
