@@ -40,7 +40,7 @@ const racePointFunction = function(rankPointsArray)
 
 const racePointFunctions = {
 
-    "D10": racePointFunction([1,1,1,1,1,1]),
+    "D-10": racePointFunction([1,1,1,1,1,1]),
     "H10": racePointFunction([1,1,1,1,1,1]),
 
     "D12": racePointFunction([4,3,2,1]),
@@ -61,13 +61,13 @@ const racePointFunctions = {
     "D18": racePointFunction([4,3,2,1]),
     "H18": racePointFunction([4,3,2,1]),
 
-    "D20": racePointFunction([4,3,2,1]),
+    "D-20": racePointFunction([4,3,2,1]),
     "H20": racePointFunction([4,3,2,1]),
 
     "D20B": racePointFunction([2,2,1,1]),
     "H20B": racePointFunction([2,2,1,1]),
 
-    "D21": racePointFunction([8,7,6,5,4,3,2,1]),
+    "D21-": racePointFunction([8,7,6,5,4,3,2,1]),
     "H21": racePointFunction([8,7,6,5,4,3,2,1]),
 
     "D21B": racePointFunction([2,2,2,1,1,1]),
@@ -92,7 +92,7 @@ const racePointFunctions = {
     "H80": racePointFunction([4,3,2,1]),
 
     "D-let": racePointFunction([2,2,2,1,1,1]),
-    "D-let": racePointFunction([2,2,2,1,1,1])
+    "H-Let": racePointFunction([2,2,2,1,1,1])
 
 };
 
