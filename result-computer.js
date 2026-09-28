@@ -102,10 +102,6 @@ const racePointFunctions = {
 
 };
 
-const findCategory = function(catArray, name) {
-    return catArray.find(c => c.name == name) || { name: name, individualResults: [] };
-};
-
 // Compute match points from race point results.
 const computeMatchPoints = function(matchRacePoints) {
 
@@ -240,6 +236,9 @@ function makeTable(tbody, r) {
 
     const ranking = r.ranking.map(p => `<tr><td>${p.club}</td><td>${p.match}</td><td>${p.race} &ndash; ${p.oppRace}</td></tr>` ).join('');
     tbody.parentElement.insertAdjacentHTML("beforebegin", `<table class="divisionMatchRankingTable"><tbody>${ranking}</tbody></table>`);
+
+    const matchSummaries = r.map(m => `<tr class="matchHeader"><td>${m.clubs[0]}</td><td>${m.racePoints[m.clubs[0]]}</td><td>${mSep}</td><td>${m.racePoints[m.clubs[1]]}<td>${m.clubs[1]}</td></tr>`);
+    tbody.parentElement.insertAdjacentHTML("beforebegin", `<table class="divisionMatchResultSummaryTable"><tbody>${matchSummaries.join('')}</tbody></table>`);
 
 
     appendToTableBody(tbody, r);

@@ -11,14 +11,24 @@ table {
 }
 
 table.divisionMatchRankingTable {
-    margin-bottom: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    background: lightskyblue
 }
 
 table.divisionMatchRankingTable > tbody > tr > td {
     text-align: right;
 }
 
+table.divisionMatchResultSummaryTable {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    background: lightseagreen;
+}
+
+table.divisionMatchResultSummaryTable > tbody {
+    padding: 1em;
+}
 
 table.divisionMatchTable > tbody > tr > th,td {
     padding-right: 6px;
