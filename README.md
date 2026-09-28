@@ -1,11 +1,16 @@
 # Fodorientering divisionsmatch resultater
 
-Beregning af divisionsmatch point baseret på resultatlister fra o-results.dk.
+Beregning af divisionsmatch point baseret på resultatlister fra [o-results.dk](o-results.dk).
+
+[https://do-f.dk/nyhed/9345-opdaterede-staevnereglementer](Orientering Fod-O Reglement 2025)
+
 
 
 ## O-result API
 
 Resultater i JSON format hentes via HTTP: https://api.o-result.com/events/<event-slug>/results
+
+
 
 F.eks.:
 [https://api.o-result.com/events/2026-09-06-divisionsmatch/results](https://api.o-result.com/events/2026-09-06-divisionsmatch/results)

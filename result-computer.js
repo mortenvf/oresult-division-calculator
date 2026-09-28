@@ -29,70 +29,76 @@ async function fetchResults(slug) {
 }
 
 
-const racePointFunction = function(rankPointsArray)
+const racePointFunction = function(rankPointsArray, categoryRegex)
 {
     let fn = rank => (rank < rankPointsArray.length) ? rankPointsArray[rank] : 0;
     fn.rankPointsArray = rankPointsArray;
     fn.count = rankPointsArray.length;
+    fn.regex = categoryRegex;
+    fn.matches = function(category) {
+        return categoryRegex.test(category.name);
+    };
     return fn;
 };
 
 
 const racePointFunctions = {
 
-    "D-10": racePointFunction([1,1,1,1,1,1]),
-    "H10": racePointFunction([1,1,1,1,1,1]),
+    "Begynder": racePointFunction([1,1,1,1,1,1], /^[Bb]egynder$/),
 
-    "D12": racePointFunction([4,3,2,1]),
-    "H12": racePointFunction([4,3,2,1]),
+    "D10": racePointFunction([1,1,1,1,1,1], /^D-?10$/),
+    "H10": racePointFunction([1,1,1,1,1,1], /^H-?10$/ ),
 
-    "D12B": racePointFunction([1,1,1,1,1,1]), 
-    "H12B": racePointFunction([1,1,1,1,1,1]),
+    "D12": racePointFunction([4,3,2,1], /^D-?12$/),
+    "H12": racePointFunction([4,3,2,1], /^H-?12$/),
 
-    "D14": racePointFunction([4,3,2,1]),
-    "H14": racePointFunction([4,3,2,1]),
+    "D12B": racePointFunction([1,1,1,1,1,1], /^D-?12B$/), 
+    "H12B": racePointFunction([1,1,1,1,1,1], /^H-?12B$/),
 
-    "D14B": racePointFunction([2,2,1,1]),
-    "H14B": racePointFunction([2,2,1,1]),
+    "D14": racePointFunction([4,3,2,1], /^D-?14$/),
+    "H14": racePointFunction([4,3,2,1], /^H-?14$/),
 
-    "D16": racePointFunction([4,3,2,1]),
-    "H16": racePointFunction([4,3,2,1]),
+    "D14B": racePointFunction([2,2,1,1], /^D-?14B$/),
+    "H14B": racePointFunction([2,2,1,1], /^H-?14B$/),
 
-    "D18": racePointFunction([4,3,2,1]),
-    "H18": racePointFunction([4,3,2,1]),
+    "D16": racePointFunction([4,3,2,1], /^D-?16$/),
+    "H16": racePointFunction([4,3,2,1], /^H-?16$/),
 
-    "D-20": racePointFunction([4,3,2,1]),
-    "H20": racePointFunction([4,3,2,1]),
+    "D18": racePointFunction([4,3,2,1], /^D-?18$/),
+    "H18": racePointFunction([4,3,2,1], /^H-?18$/),
 
-    "D20B": racePointFunction([2,2,1,1]),
-    "H20B": racePointFunction([2,2,1,1]),
+    "D20": racePointFunction([4,3,2,1], /^D-?20$/),
+    "H20": racePointFunction([4,3,2,1], /^H-?20$/),
 
-    "D21-": racePointFunction([8,7,6,5,4,3,2,1]),
-    "H21": racePointFunction([8,7,6,5,4,3,2,1]),
+    "D20B": racePointFunction([2,2,1,1], /^D-?20B$/),
+    "H20B": racePointFunction([2,2,1,1], /^H-?20B$/),
 
-    "D21B": racePointFunction([2,2,2,1,1,1]),
-    "H21B": racePointFunction([2,2,2,1,1,1]),
+    "D21": racePointFunction([8,7,6,5,4,3,2,1], /^D21-?$/),
+    "H21": racePointFunction([8,7,6,5,4,3,2,1], /^H21$/),
 
-    "D40": racePointFunction([6,5,4,3,2,1]),
-    "H40": racePointFunction([6,5,4,3,2,1]),
+    "D21B": racePointFunction([2,2,2,1,1,1], /^D-?21B$/),
+    "H21B": racePointFunction([2,2,2,1,1,1], /^H-?21B$/),
 
-    "D45B": racePointFunction([2,2,2,1,1,1]),
-    "H45B": racePointFunction([2,2,2,1,1,1]),
+    "D40": racePointFunction([6,5,4,3,2,1], /^D-?40$/),
+    "H40": racePointFunction([6,5,4,3,2,1], /^H-?40$/),
 
-    "D50": racePointFunction([6,5,4,3,2,1]),
-    "H50": racePointFunction([6,5,4,3,2,1]),
+    "D45B": racePointFunction([2,2,2,1,1,1], /^D-?45B$/),
+    "H45B": racePointFunction([2,2,2,1,1,1], /^H-?45B$/),
 
-    "D60": racePointFunction([6,5,4,3,2,1]),
-    "H60": racePointFunction([6,5,4,3,2,1]),
+    "D50": racePointFunction([6,5,4,3,2,1], /^D-?50$/),
+    "H50": racePointFunction([6,5,4,3,2,1], /^H-?50$/),
 
-    "D70": racePointFunction([6,5,4,3,2,1]),
-    "H70": racePointFunction([6,5,4,3,2,1]),
+    "D60": racePointFunction([6,5,4,3,2,1], /^D-?60$/),
+    "H60": racePointFunction([6,5,4,3,2,1], /^H-?60$/),
 
-    "D80": racePointFunction([4,3,2,1]),
-    "H80": racePointFunction([4,3,2,1]),
+    "D70": racePointFunction([6,5,4,3,2,1], /^D-?70$/),
+    "H70": racePointFunction([6,5,4,3,2,1], /^H-?70$/),
 
-    "D-let": racePointFunction([2,2,2,1,1,1]),
-    "H-Let": racePointFunction([2,2,2,1,1,1])
+    "D80": racePointFunction([4,3,2,1], /^D-?80$/),
+    "H80": racePointFunction([4,3,2,1], /^H-?80$/),
+
+    "D-Let": racePointFunction([2,2,2,1,1,1], /^D-[Ll]et$/),
+    "H-Let": racePointFunction([2,2,2,1,1,1], /^H-[Ll]et$/)
 
 };
 
@@ -100,10 +106,11 @@ const findCategory = function(catArray, name) {
     return catArray.find(c => c.name == name) || { name: name, individualResults: [] };
 };
 
-//Compute match points from race point results.
+// Compute match points from race point results.
 const computeMatchPoints = function(matchRacePoints) {
 
-    const x = Object.entries(matchRacePoints).reduce(
+    // Aggregate the clubs with maximum race points
+    const winners = Object.entries(matchRacePoints).reduce(
         (a, c) => {
             if (c[1] > a.racePoints) { return {clubs: [c[0]], racePoints: c[1]}; }
             else if (c[1] == a.racePoints) { a.clubs.push(c[0]); a.racePoints++; }
@@ -112,8 +119,9 @@ const computeMatchPoints = function(matchRacePoints) {
         { clubs: [], racePoints: 0 }
     );
 
+    // Assign match points to winner (or distribute on tied winners).
     return Object.keys(matchRacePoints).reduce( (a, c) => {
-        a[c] = x.clubs.includes(c) ? 2 / x.clubs.length : 0;
+        a[c] = winners.clubs.includes(c) ? 2 / winners.clubs.length : 0;
         return a;
     }, {});
 
@@ -121,33 +129,40 @@ const computeMatchPoints = function(matchRacePoints) {
 
 const computeMatchResult = function(matchClubs, oResults) {
     let matchRacePoints = matchClubs.reduce( (a, v) => {a[v] = 0; return a; }, {});
+    let racePointSum = 0;
     let r = {
         clubs: matchClubs,
         racePoints: matchRacePoints,
-        categories: Object.keys(racePointFunctions)
-                .map(categoryName => findCategory(oResults.categories, categoryName))
-                .map(c => {
-                    let rpFn = racePointFunctions[c.name];
+        categories: Object.entries(racePointFunctions)
+                .map(kv => {
+                    const categoryName = kv[0];
+                    const rpFn = kv[1];
+                    const category = oResults.categories.find(kv[1].matches) || { name: kv[0], individualResults: [] };
                     let categoryRacePoints = matchClubs.reduce( (a, c) => {a[c] = { racePoints: 0, count: 0 } ; return a; }, {});
                     let rank = 0;
-                    let mr = c.individualResults
-                        .filter(r => matchClubs.includes(r.club))
-                        .map((r, i) => {
+                    let mr = category.individualResults
+                        .filter(r => matchClubs.includes(r.club)) // Filter for relevant club
+                        .map((r, i) => { // Compute and aggregate individual result points
                             let rp = 0;
                             if (r.status == "Ok" && categoryRacePoints[r.club].count < rpFn.count / 2 ) {
                                 rp = rpFn(rank);
                                 categoryRacePoints[r.club].count++;
                                 rank++;
                             }
+                            racePointSum += rp;
                             categoryRacePoints[r.club].racePoints += rp;
                             return { __proto__: r, racePoints: rp };
                         });
-                    Object.entries(categoryRacePoints).forEach(kv => { matchRacePoints[kv[0]] += kv[1].racePoints; });
-                    return {__proto__: c, matchResults: mr, racePoints: categoryRacePoints};
+                    // Add the category points to match points     
+                    Object.entries(categoryRacePoints).forEach(kv => {
+                         matchRacePoints[kv[0]] += kv[1].racePoints;
+                        });
+                    return {__proto__: category, matchResults: mr, racePoints: categoryRacePoints};
                 })
     };
 
     r.matchPoints = computeMatchPoints(matchRacePoints);
+    r.racePointSum = racePointSum;
 
     return r;
 };
@@ -167,16 +182,17 @@ const computeDivisionResult = function(clubs, oResult) {
     const r = roundRobin(clubs).map(c => computeMatchResult(c, oResult));
 
     r.clubs = clubs;
-    r.racePoints = clubs.reduce( (a, v) => {a[v] = 0; return a; }, {});
-    r.matchPoints = clubs.reduce( (a, v) => {a[v] = 0; return a; }, {});
+    r.points = clubs.reduce( (a, v) => {a[v] = {club: v, race: 0, oppRace: 0, match: 0}; return a; }, {});
     r.forEach(
-        m => {
-            m.clubs.forEach(c => {
-                r.racePoints[c] += m.racePoints[c];
-                r.matchPoints[c] += m.matchPoints[c];
+        match => {
+            match.clubs.forEach(c => {
+                r.points[c].race += match.racePoints[c];
+                r.points[c].oppRace += match.racePointSum - match.racePoints[c];
+                r.points[c].match += match.matchPoints[c];
             });
         }
     );
+    r.ranking = Object.values(r.points).sort((a, b) => b.match - a.match );
 
     return r;
 
@@ -222,6 +238,10 @@ function makeTable(tbody, r) {
         }
     };
 
+    const ranking = r.ranking.map(p => `<tr><td>${p.club}</td><td>${p.match}</td><td>${p.race} &ndash; ${p.oppRace}</td></tr>` ).join('');
+    tbody.parentElement.insertAdjacentHTML("beforebegin", `<table class="divisionMatchRankingTable"><tbody>${ranking}</tbody></table>`);
+
+
     appendToTableBody(tbody, r);
 
 }
@@ -259,6 +279,17 @@ const main = function() {
         const r2 = computeDivisionResult(divisions[2], results.result);
         makeTable(document.querySelector("#rnd2div3>tbody"), r2)
     });
+
+
+    fetchResults("2026-09-27-foelgeloeb-division-opned-1-2-division-opned-2-3-division-aabne-klasser").then(results => {
+
+        const r1 = computeDivisionResult(["OK Pan", "Herning Orienteringsklub", "Aalborg Orienteringsklub", "OK Vendelboerne"], results.result);
+        makeTable(document.querySelector("#rnd3div12>tbody"), r1)
+
+        const r2 = computeDivisionResult([ "Mariager Fjord OK", "Aarhus 1900 Orientering", "Viborg OK", "KaSki OK"], results.result);
+        makeTable(document.querySelector("#rnd3div23>tbody"), r2)
+    });
+
 
 
 }
