@@ -130,10 +130,8 @@ const computeMatchResult = function(matchClubs, oResults) {
         clubs: matchClubs,
         racePoints: matchRacePoints,
         categories: Object.entries(racePointFunctions)
-                .map(kv => {
-                    const categoryName = kv[0];
-                    const rpFn = kv[1];
-                    const category = oResults.categories.find(kv[1].matches) || { name: kv[0], individualResults: [] };
+                .map( ([categoryName, rpFn]) => {
+                    const category = oResults.categories.find(rpFn.matches) || { name: categoryName, individualResults: [] };
                     let categoryRacePoints = matchClubs.reduce( (a, c) => {a[c] = { racePoints: 0, count: 0 } ; return a; }, {});
                     let rank = 0;
                     let mr = category.individualResults
@@ -153,7 +151,7 @@ const computeMatchResult = function(matchClubs, oResults) {
                     Object.entries(categoryRacePoints).forEach(kv => {
                          matchRacePoints[kv[0]] += kv[1].racePoints;
                         });
-                    return {__proto__: category, matchResults: mr, racePoints: categoryRacePoints};
+                    return {__proto__: category, name: categoryName, matchResults: mr, racePoints: categoryRacePoints};
                 })
     };
 
